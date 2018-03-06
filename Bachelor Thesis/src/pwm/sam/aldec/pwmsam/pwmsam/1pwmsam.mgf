@@ -1,0 +1,262 @@
+I 000050 55 1434          1464368475958 ponasanje
+(_unit VHDL (pwm 0 7 (ponasanje 0 15 ))
+	(_version vb4)
+	(_time 1464368475959 2016.05.27 19:01:15)
+	(_source (\C:/fpga/pwm/pwm/pwm_samradi.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	(_code 8fda8680ded88f988d8a98d58a888f888889db888f)
+	(_entity
+		(_time 1464368475955)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal clk ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_in )(_event))))
+		(_port (_internal pwm_out ~extieee.std_logic_1164.STD_LOGIC 0 10 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 16 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal position ~STD_LOGIC_VECTOR{7~downto~0}~13 0 16 (_architecture (_uni ))))
+		(_signal (_internal brojac ~STD_LOGIC_VECTOR{7~downto~0}~13 0 17 (_architecture (_uni ))))
+		(_process
+			(PWM_proces(_architecture 0 0 21 (_process (_simple)(_target(2)(3)(1))(_sensitivity(0))(_read(2)(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_static
+		(33686018 33686018 )
+	)
+	(_model . ponasanje 1 -1
+	)
+)
+I 000050 55 1814          1464368476365 ponasanje
+(_unit VHDL (clk_mod 0 8 (ponasanje 0 18 ))
+	(_version vb4)
+	(_time 1464368476366 2016.05.27 19:01:16)
+	(_source (\C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	(_code 26727722737120337222627c212022202520752074)
+	(_entity
+		(_time 1464368476363)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal CLK_input ~extSTD.STANDARD.INTEGER 0 10 \3330000\ (_entity ((i 3330000)))))
+		(_generic (_internal pwm_freq ~extSTD.STANDARD.INTEGER 0 11 \13000\ (_entity ((i 13000)))))
+		(_port (_internal CLK_in ~extieee.std_logic_1164.STD_LOGIC 0 13 (_entity (_in )(_event))))
+		(_port (_internal CLK_out ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+		(_constant (_internal period ~extSTD.STANDARD.INTEGER 0 19 (_architecture (_code 1))))
+		(_type (_internal ~INTEGER~range~0~to~period~13 0 20 (_scalar (_to (i 0)(c 2)))))
+		(_signal (_internal counter ~INTEGER~range~0~to~period~13 0 20 (_architecture (_uni ((i 0))))))
+		(_signal (_internal new_clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_variable (_internal TMP ~extieee.std_logic_1164.STD_LOGIC 0 24 (_process 0 ((i 2)))))
+		(_process
+			(clk_mod(_architecture 0 0 23 (_process (_simple)(_target(2)(3))(_sensitivity(0))(_read(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_model . ponasanje 3 -1
+	)
+)
+I 000050 55 1434          1464368527356 ponasanje
+(_unit VHDL (pwm 0 7 (ponasanje 0 14 ))
+	(_version vb4)
+	(_time 1464368527357 2016.05.27 19:02:07)
+	(_source (\C:/fpga/pwm/pwm/pwm_samradi.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	(_code 4e414c4d1c194e594c4b59144b494e4949481a494e)
+	(_entity
+		(_time 1464368475954)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal clk ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_in )(_event))))
+		(_port (_internal pwm_out ~extieee.std_logic_1164.STD_LOGIC 0 10 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 15 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal position ~STD_LOGIC_VECTOR{7~downto~0}~13 0 15 (_architecture (_uni ))))
+		(_signal (_internal brojac ~STD_LOGIC_VECTOR{7~downto~0}~13 0 16 (_architecture (_uni ))))
+		(_process
+			(PWM_proces(_architecture 0 0 20 (_process (_simple)(_target(2)(3)(1))(_sensitivity(0))(_read(2)(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_static
+		(33686018 33686018 )
+	)
+	(_model . ponasanje 1 -1
+	)
+)
+I 000050 55 1814          1464368527457 ponasanje
+(_unit VHDL (clk_mod 0 8 (ponasanje 0 18 ))
+	(_version vb4)
+	(_time 1464368527458 2016.05.27 19:02:07)
+	(_source (\C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	(_code aca2adfbacfbaab9f8a8e8f6abaaa8aaafaaffaafe)
+	(_entity
+		(_time 1464368476362)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal CLK_input ~extSTD.STANDARD.INTEGER 0 10 \3330000\ (_entity ((i 3330000)))))
+		(_generic (_internal pwm_freq ~extSTD.STANDARD.INTEGER 0 11 \13000\ (_entity ((i 13000)))))
+		(_port (_internal CLK_in ~extieee.std_logic_1164.STD_LOGIC 0 13 (_entity (_in )(_event))))
+		(_port (_internal CLK_out ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+		(_constant (_internal period ~extSTD.STANDARD.INTEGER 0 19 (_architecture (_code 1))))
+		(_type (_internal ~INTEGER~range~0~to~period~13 0 20 (_scalar (_to (i 0)(c 2)))))
+		(_signal (_internal counter ~INTEGER~range~0~to~period~13 0 20 (_architecture (_uni ((i 0))))))
+		(_signal (_internal new_clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_variable (_internal TMP ~extieee.std_logic_1164.STD_LOGIC 0 24 (_process 0 ((i 2)))))
+		(_process
+			(clk_mod(_architecture 0 0 23 (_process (_simple)(_target(2)(3))(_sensitivity(0))(_read(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_model . ponasanje 3 -1
+	)
+)
+V 000050 55 1434          1464368748349 ponasanje
+(_unit VHDL (pwm 0 7 (ponasanje 0 14 ))
+	(_version vb4)
+	(_time 1464368748350 2016.05.27 19:05:48)
+	(_source (\C:/fpga/pwm/pwm/pwm_samradi.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	(_code 96c4979897c19681949381cc939196919190c29196)
+	(_entity
+		(_time 1464368475954)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_port (_internal clk ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_in )(_event))))
+		(_port (_internal pwm_out ~extieee.std_logic_1164.STD_LOGIC 0 10 (_entity (_out ))))
+		(_type (_internal ~STD_LOGIC_VECTOR{7~downto~0}~13 0 15 (_array ~extieee.std_logic_1164.STD_LOGIC ((_downto (i 7)(i 0))))))
+		(_signal (_internal position ~STD_LOGIC_VECTOR{7~downto~0}~13 0 15 (_architecture (_uni ))))
+		(_signal (_internal brojac ~STD_LOGIC_VECTOR{7~downto~0}~13 0 16 (_architecture (_uni ))))
+		(_process
+			(PWM_proces(_architecture 0 0 20 (_process (_simple)(_target(2)(3)(1))(_sensitivity(0))(_read(2)(3)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_static
+		(33686018 33686018 )
+	)
+	(_model . ponasanje 1 -1
+	)
+)
+V 000051 55 2552          1464368748409 Behavioral
+(_unit VHDL (main 0 6 (behavioral 0 15 ))
+	(_version vb4)
+	(_time 1464368748410 2016.05.27 19:05:48)
+	(_source (\C:/fpga/pwm/pwm/main_za_pwm_samradi.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED)))
+	(_code d5868087d18288c383d2918f85d3dcd380d381d3d4)
+	(_entity
+		(_time 1464368476350)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED)))
+	)
+	(_component
+		(clk_mod
+			(_object
+				(_port (_internal CLK_in ~extieee.std_logic_1164.STD_LOGIC 0 20 (_entity (_in ))))
+				(_port (_internal CLK_out ~extieee.std_logic_1164.STD_LOGIC 0 21 (_entity (_out ))))
+			)
+		)
+		(PWM
+			(_object
+				(_port (_internal clk ~extieee.std_logic_1164.STD_LOGIC 0 25 (_entity (_in ))))
+				(_port (_internal pwm_out ~extieee.std_logic_1164.STD_LOGIC 0 26 (_entity (_out ))))
+			)
+		)
+	)
+	(_instantiation pr1 0 31 (_component clk_mod )
+		(_port
+			((CLK_in)(CLK_3_33MHZ))
+			((CLK_out)(slow_clk))
+		)
+		(_use (_entity . clk_mod)
+		)
+	)
+	(_instantiation pwm0 0 35 (_component PWM )
+		(_port
+			((clk)(CLK_3_33MHZ))
+			((pwm_out)(pozicija))
+		)
+		(_use (_entity . PWM)
+		)
+	)
+	(_object
+		(_port (_internal CLK_3_33MHZ ~extieee.std_logic_1164.STD_LOGIC 0 7 (_entity (_in ))))
+		(_port (_internal LED0 ~extieee.std_logic_1164.STD_LOGIC 0 8 (_entity (_out ))))
+		(_port (_internal LED1 ~extieee.std_logic_1164.STD_LOGIC 0 9 (_entity (_out ))))
+		(_port (_internal LED2 ~extieee.std_logic_1164.STD_LOGIC 0 10 (_entity (_out ))))
+		(_port (_internal LED3 ~extieee.std_logic_1164.STD_LOGIC 0 11 (_entity (_out ))))
+		(_signal (_internal slow_clk ~extieee.std_logic_1164.STD_LOGIC 0 16 (_architecture (_uni )(_event))))
+		(_signal (_internal pozicija ~extieee.std_logic_1164.STD_LOGIC 0 17 (_architecture (_uni ))))
+		(_process
+			(PWM_proces(_architecture 0 0 41 (_process (_target(1))(_sensitivity(5)(6))(_dssslsensitivity 1))))
+			(line__47(_architecture 1 0 47 (_assignment (_simple)(_alias((LED1)(_string \"1"\)))(_target(2)))))
+			(line__48(_architecture 2 0 48 (_assignment (_simple)(_alias((LED2)(_string \"0"\)))(_target(3)))))
+			(line__49(_architecture 3 0 49 (_assignment (_simple)(_alias((LED3)(_string \"0"\)))(_target(4)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_model . Behavioral 4 -1
+	)
+)
+V 000050 55 1814          1464368748495 ponasanje
+(_unit VHDL (clk_mod 0 8 (ponasanje 0 18 ))
+	(_version vb4)
+	(_time 1464368748496 2016.05.27 19:05:48)
+	(_source (\C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd\))
+	(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	(_code 237022277374253677276779242527252025702571)
+	(_entity
+		(_time 1464368476362)
+		(_use (std(standard))(ieee(std_logic_1164))(ieee(std_logic_arith))(ieee(STD_LOGIC_UNSIGNED))(ieee(NUMERIC_STD)))
+	)
+	(_object
+		(_generic (_internal CLK_input ~extSTD.STANDARD.INTEGER 0 10 \3330000\ (_entity ((i 3330000)))))
+		(_generic (_internal pwm_freq ~extSTD.STANDARD.INTEGER 0 11 \13000\ (_entity ((i 13000)))))
+		(_port (_internal CLK_in ~extieee.std_logic_1164.STD_LOGIC 0 13 (_entity (_in )(_event))))
+		(_port (_internal CLK_out ~extieee.std_logic_1164.STD_LOGIC 0 14 (_entity (_out ))))
+		(_constant (_internal period ~extSTD.STANDARD.INTEGER 0 19 (_architecture (_code 1))))
+		(_type (_internal ~INTEGER~range~0~to~period~13 0 20 (_scalar (_to (i 0)(c 2)))))
+		(_signal (_internal counter ~INTEGER~range~0~to~period~13 0 20 (_architecture (_uni ((i 0))))))
+		(_signal (_internal new_clk ~extieee.std_logic_1164.STD_LOGIC 0 21 (_architecture (_uni ))))
+		(_variable (_internal TMP ~extieee.std_logic_1164.STD_LOGIC 0 24 (_process 0 ((i 2)))))
+		(_process
+			(clk_mod(_architecture 0 0 23 (_process (_simple)(_target(2)(3))(_sensitivity(0))(_read(2)))))
+		)
+		(_subprogram
+			(_external resolved (ieee std_logic_1164 15))
+		)
+		(_type (_external ~extSTD.STANDARD.INTEGER (std STANDARD INTEGER)))
+		(_type (_external ~extieee.std_logic_1164.STD_LOGIC (ieee std_logic_1164 STD_LOGIC)))
+		(_type (_external ~extieee.std_logic_1164.STD_ULOGIC (ieee std_logic_1164 STD_ULOGIC)))
+	)
+	(_model . ponasanje 3 -1
+	)
+)

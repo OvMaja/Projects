@@ -1,0 +1,35 @@
+set_location IN_MUX_bfv_8_7_0_ 8 7 0 #ICE_CARRY_IN_MUX
+set_location CONSTANT_ONE_LUT4 12 6 6 #SB_LUT4
+set_location pwm0.pwm_out_RNO 9 7 1 #SB_LUT4
+set_location pwm0.pwm_out 9 7 1 #SB_DFF
+set_location pwm0.brojac_RNO[6] 8 7 6 #SB_LUT4
+set_location pwm0.brojac[5] 8 7 5 #SB_DFF
+set_location pwm0.brojac_RNO[1] 8 7 1 #SB_LUT4
+set_location pwm0.brojac_cry_c[1] 8 7 1 #SB_CARRY
+set_location pwm0.brojac_RNO[0] 8 7 0 #SB_LUT4
+set_location pwm0.brojac[3] 8 7 3 #SB_DFF
+set_location pwm0.brojac_cry_c[2] 8 7 2 #SB_CARRY
+set_location pwm0.brojac_RNO[3] 8 7 3 #SB_LUT4
+set_location pwm0.brojac[2] 8 7 2 #SB_DFF
+set_location pwm0.brojac_cry_c[3] 8 7 3 #SB_CARRY
+set_location pwm0.brojac_RNO[2] 8 7 2 #SB_LUT4
+set_location pwm0.brojac[1] 8 7 1 #SB_DFF
+set_location pwm0.pwm_out_RNO_1 9 7 2 #SB_LUT4
+set_location pwm0.brojac_cry_c[4] 8 7 4 #SB_CARRY
+set_location pwm0.brojac_RNO[5] 8 7 5 #SB_LUT4
+set_location pwm0.brojac[0] 8 7 0 #SB_DFF
+set_location pwm0.pwm_out_RNO_0 9 7 0 #SB_LUT4
+set_location pwm0.brojac_cry_c[5] 8 7 5 #SB_CARRY
+set_location pwm0.brojac_RNO[4] 8 7 4 #SB_LUT4
+set_location pwm0.brojac[7] 8 7 7 #SB_DFF
+set_location pwm0.brojac_cry_c[6] 8 7 6 #SB_CARRY
+set_location pwm0.brojac_RNO[7] 8 7 7 #SB_LUT4
+set_location pwm0.brojac[6] 8 7 6 #SB_DFF
+set_location GND -1 -1 -1 #GND
+set_location pwm0.brojac_cry_c[0] 8 7 0 #SB_CARRY
+set_location pwm0.brojac[4] 8 7 4 #SB_DFF
+set_io LED2 53
+set_io LED0 59
+set_io CLK_3_33MHZ 13
+set_io LED3 51
+set_io LED1 56

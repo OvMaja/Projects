@@ -1,0 +1,28 @@
+@P:  Worst Slack : -1.165
+@P:  clk_mod|CLK_out_derived_clock - Estimated Frequency : NA
+@P:  clk_mod|CLK_out_derived_clock - Requested Frequency : 151.4 MHz
+@P:  clk_mod|CLK_out_derived_clock - Estimated Period : NA
+@P:  clk_mod|CLK_out_derived_clock - Requested Period : 6.604
+@P:  clk_mod|CLK_out_derived_clock - Slack : NA
+@P:  main|CLK - Estimated Frequency : 128.7 MHz
+@P:  main|CLK - Requested Frequency : 151.4 MHz
+@P:  main|CLK - Estimated Period : 7.769
+@P:  main|CLK - Requested Period : 6.604
+@P:  main|CLK - Slack : -1.165
+@P:  Worst Slack(min analysis) : 1.330
+@P:  clk_mod|CLK_out_derived_clock - Estimated Frequency(min analysis) : NA
+@P:  clk_mod|CLK_out_derived_clock - Requested Frequency(min analysis) : 151.4 MHz
+@P:  clk_mod|CLK_out_derived_clock - Estimated Period(min analysis) : NA
+@P:  clk_mod|CLK_out_derived_clock - Requested Period(min analysis) : 6.604
+@P:  clk_mod|CLK_out_derived_clock - Slack(min analysis) : NA
+@P:  main|CLK - Estimated Frequency(min analysis) : 128.7 MHz
+@P:  main|CLK - Requested Frequency(min analysis) : 151.4 MHz
+@P:  main|CLK - Estimated Period(min analysis) : 7.769
+@P:  main|CLK - Requested Period(min analysis) : 6.604
+@P:  main|CLK - Slack(min analysis) : -1.165
+@P: main Part : ice40hx1kvq100
+@P: main I/O primitives : 5
+@P: main I/O Register bits : 0
+@P: main Register bits (Non I/O) : 24 (1%)
+@P: main Total Luts : 42 (3%)
+@P:  CPU Time : 0h:00m:02s

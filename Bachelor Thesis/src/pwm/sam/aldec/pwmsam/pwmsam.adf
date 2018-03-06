@@ -1,0 +1,43 @@
+[Project]
+Current Flow=Generic
+VCS=0
+version=3
+Current Config=compile
+[Configurations]
+compile=pwmsam
+[Library]
+pwmsam=.\pwmsam\pwmsam.lib
+[Settings]
+AccessRead=0
+AccessReadWrite=0
+AccessACCB=0
+AccessACCR=0
+AccessReadWriteSLP=0
+AccessReadTopLevel=1
+DisableC=1
+ENABLE_ADV_DATAFLOW=0
+FLOW_TYPE=HDL
+LANGUAGE=VHDL
+REFRESH_FLOW=1
+[LocalVerilogSets]
+EnableSLP=1
+EnableDebug=0
+LibNames=ovi_ice;ice
+[LocalVhdlSets]
+CompileWithDebug=0
+[$LibMap$]
+pwmsam=.
+[Files]
+/..\..\..\..\pwm\pwm_samradi.vhd=-1
+/..\..\..\..\pwm\main_za_pwm_samradi.vhd=-1
+/..\..\..\..\pwm\clockmodif_za_pwmsam1.vhd=-1
+[Files.Data]
+.\..\..\..\pwm\pwm_samradi.vhd=VHDL Source Code
+.\..\..\..\pwm\main_za_pwm_samradi.vhd=VHDL Source Code
+.\..\..\..\pwm\clockmodif_za_pwmsam1.vhd=VHDL Source Code
+[SpecTracer]
+WindowVisible=0
+[HierarchyViewer]
+HierarchyInformation=
+ShowHide=ShowTopLevel
+Selected=

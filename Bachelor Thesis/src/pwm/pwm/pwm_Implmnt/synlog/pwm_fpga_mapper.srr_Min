@@ -1,0 +1,133 @@
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Thu Jul 07 18:54:18 2016
+#
+
+
+Top view:               main
+Requested Frequency:    195.4 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: 2.614
+
+                     Requested     Estimated     Requested     Estimated                Clock        Clock                
+Starting Clock       Frequency     Frequency     Period        Period        Slack      Type         Group                
+--------------------------------------------------------------------------------------------------------------------------
+main|CLK_3_33MHZ     195.4 MHz     166.1 MHz     5.117         6.020         -0.903     inferred     Autoconstr_clkgroup_0
+==========================================================================================================================
+
+
+
+Clock Relationships
+*******************
+
+Clocks                              |    rise  to  rise   |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+--------------------------------------------------------------------------------------------------------------------------
+Starting          Ending            |  constraint  slack  |  constraint  slack  |  constraint  slack  |  constraint  slack
+--------------------------------------------------------------------------------------------------------------------------
+main|CLK_3_33MHZ  main|CLK_3_33MHZ  |  0.000       2.614  |  No paths    -      |  No paths    -      |  No paths    -    
+==========================================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: main|CLK_3_33MHZ
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                              Arrival          
+Instance           Reference            Type       Pin     Net           Time        Slack
+                   Clock                                                                  
+------------------------------------------------------------------------------------------
+pwm0.brojac[0]     main|CLK_3_33MHZ     SB_DFF     Q       brojac[0]     0.378       2.614
+pwm0.brojac[1]     main|CLK_3_33MHZ     SB_DFF     Q       brojac[1]     0.378       2.614
+pwm0.brojac[2]     main|CLK_3_33MHZ     SB_DFF     Q       brojac[2]     0.378       2.614
+pwm0.brojac[3]     main|CLK_3_33MHZ     SB_DFF     Q       brojac[3]     0.378       2.614
+pwm0.brojac[4]     main|CLK_3_33MHZ     SB_DFF     Q       brojac[4]     0.378       2.614
+pwm0.brojac[5]     main|CLK_3_33MHZ     SB_DFF     Q       brojac[5]     0.378       2.614
+pwm0.brojac[6]     main|CLK_3_33MHZ     SB_DFF     Q       brojac[6]     0.378       2.614
+pwm0.brojac[7]     main|CLK_3_33MHZ     SB_DFF     Q       brojac[7]     0.378       2.793
+==========================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                   Starting                                                Required          
+Instance           Reference            Type       Pin     Net             Time         Slack
+                   Clock                                                                     
+---------------------------------------------------------------------------------------------
+pwm0.brojac[1]     main|CLK_3_33MHZ     SB_DFF     D       brojac_s[1]     0.074        2.614
+pwm0.brojac[2]     main|CLK_3_33MHZ     SB_DFF     D       brojac_s[2]     0.074        2.614
+pwm0.brojac[3]     main|CLK_3_33MHZ     SB_DFF     D       brojac_s[3]     0.074        2.614
+pwm0.brojac[4]     main|CLK_3_33MHZ     SB_DFF     D       brojac_s[4]     0.074        2.614
+pwm0.brojac[5]     main|CLK_3_33MHZ     SB_DFF     D       brojac_s[5]     0.074        2.614
+pwm0.brojac[6]     main|CLK_3_33MHZ     SB_DFF     D       brojac_s[6]     0.074        2.614
+pwm0.brojac[7]     main|CLK_3_33MHZ     SB_DFF     D       brojac_s[7]     0.074        2.614
+pwm0.brojac[0]     main|CLK_3_33MHZ     SB_DFF     D       brojac_s[0]     0.074        2.758
+pwm0.pwm_out       main|CLK_3_33MHZ     SB_DFF     D       un5_brojac      0.074        3.905
+=============================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+    Propagation time:                        2.688
+    + Clock delay at starting point:         0.000 (ideal)
+    - Requested Period:                      0.000
+    - Hold time:                             0.074
+    - Clock delay at ending point:           0.000 (ideal)
+    = Slack (critical) :                     2.614
+
+    Number of logic level(s):                2
+    Starting point:                          pwm0.brojac[0] / Q
+    Ending point:                            pwm0.brojac[1] / D
+    The start point is clocked by            main|CLK_3_33MHZ [rising] on pin C
+    The end   point is clocked by            main|CLK_3_33MHZ [rising] on pin C
+
+Instance / Net                        Pin      Pin               Arrival     No. of    
+Name                     Type         Name     Dir     Delay     Time        Fan Out(s)
+---------------------------------------------------------------------------------------
+pwm0.brojac[0]           SB_DFF       Q        Out     0.378     0.378       -         
+brojac[0]                Net          -        -       0.584     -           3         
+pwm0.brojac_cry_c[0]     SB_CARRY     I0       In      -         0.962       -         
+pwm0.brojac_cry_c[0]     SB_CARRY     CO       Out     0.180     1.142       -         
+brojac_cry[0]            Net          -        -       0.270     -           2         
+pwm0.brojac_RNO[1]       SB_LUT4      I3       In      -         1.412       -         
+pwm0.brojac_RNO[1]       SB_LUT4      O        Out     0.221     1.633       -         
+brojac_s[1]              Net          -        -       1.055     -           1         
+pwm0.brojac[1]           SB_DFF       D        In      -         2.688       -         
+=======================================================================================
+
+
+
+##### END OF TIMING REPORT #####]
+

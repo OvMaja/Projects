@@ -1,0 +1,63 @@
+Running in Lattice mode
+
+
+Starting:    C:\fpga-2014\SBTools\synpbase\win64\mbin\synbatch.exe
+Install:     C:\fpga-2014\SBTools\synpbase
+Date:        Sat May 28 00:10:28 2016
+Version:     I-2014.03L-SP1 
+
+Arguments:   -product synplify_pro  -batch pwmsamradi_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.srr"
+
+Running pwmsamradi_syn|pwmsamradi_Implmnt
+
+Running: Compile on pwmsamradi_syn|pwmsamradi_Implmnt
+
+Running: Compile Process on pwmsamradi_syn|pwmsamradi_Implmnt
+
+Running: Compile Input on pwmsamradi_syn|pwmsamradi_Implmnt
+Copied C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_comp.srs to C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Running: Multi-srs Generator on pwmsamradi_syn|pwmsamradi_Implmnt
+Copied C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_comp.srs to C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_s.srs
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:00s
+Copied C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_mult.srs to C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.srs
+Complete: Compile Process on pwmsamradi_syn|pwmsamradi_Implmnt
+
+Running: Pre-mapping on pwmsamradi_syn|pwmsamradi_Implmnt
+Copied C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap to C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_s.sap
+Copied C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.fse to C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_s.fse
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:01s
+Complete: Compile on pwmsamradi_syn|pwmsamradi_Implmnt
+
+Running: Map on pwmsamradi_syn|pwmsamradi_Implmnt
+
+Running: Map & Optimize on pwmsamradi_syn|pwmsamradi_Implmnt
+Copied C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_m.srm to C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.srm
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:02s
+Complete: Map on pwmsamradi_syn|pwmsamradi_Implmnt
+Complete: Logic Synthesis on pwmsamradi_syn|pwmsamradi_Implmnt
+
+exit status=0
+
+exit status=0
+

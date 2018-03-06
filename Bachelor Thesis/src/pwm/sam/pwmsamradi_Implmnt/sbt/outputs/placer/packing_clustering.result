@@ -1,0 +1,51 @@
+ble_pack pr1.counter[0]_LC_12 {pr1.counter[0], pr1.counter_cry_c[0], pr1.counter_RNO[0]}
+ble_pack pr1.counter[1]_LC_13 {pr1.counter[1], pr1.counter_cry_c[1], pr1.counter_RNO[1]}
+ble_pack pr1.counter[2]_LC_14 {pr1.counter[2], pr1.counter_cry_c[2], pr1.counter_RNO[2]}
+ble_pack pr1.counter[3]_LC_15 {pr1.counter[3], pr1.counter_cry_c[3], pr1.counter_RNO[3]}
+ble_pack pr1.counter[4]_LC_16 {pr1.counter[4], pr1.counter_cry_c[4], pr1.counter_RNO[4]}
+ble_pack pr1.counter[5]_LC_17 {pr1.counter[5], pr1.counter_cry_c[5], pr1.counter_RNO[5]}
+ble_pack pr1.counter[6]_LC_18 {pr1.counter[6], pr1.counter_cry_c[6], pr1.counter_RNO[6]}
+ble_pack pr1.counter[7]_LC_19 {pr1.counter[7], pr1.counter_cry_c[7], pr1.counter_RNO[7]}
+clb_pack PLB_0 {pr1.counter[0]_LC_12, pr1.counter[1]_LC_13, pr1.counter[2]_LC_14, pr1.counter[3]_LC_15, pr1.counter[4]_LC_16, pr1.counter[5]_LC_17, pr1.counter[6]_LC_18, pr1.counter[7]_LC_19}
+ble_pack pr1.counter[8]_LC_20 {pr1.counter[8], pr1.counter_RNO[8]}
+clb_pack PLB_1 {pr1.counter[8]_LC_20}
+ble_pack pwm0.PWM_proces.un8_brojac_cry_0_c_inv_LC_23 {pwm0.PWM_proces.un8_brojac_cry_0_c, pwm0.PWM_proces.un8_brojac_cry_0_c_inv}
+ble_pack pwm0.PWM_proces.un8_brojac_cry_1_c_inv_LC_24 {pwm0.PWM_proces.un8_brojac_cry_1_c, pwm0.PWM_proces.un8_brojac_cry_1_c_inv}
+ble_pack pwm0.PWM_proces.un8_brojac_cry_2_c_inv_LC_25 {pwm0.PWM_proces.un8_brojac_cry_2_c, pwm0.PWM_proces.un8_brojac_cry_2_c_inv}
+ble_pack pwm0.PWM_proces.un8_brojac_cry_3_c_inv_LC_26 {pwm0.PWM_proces.un8_brojac_cry_3_c, pwm0.PWM_proces.un8_brojac_cry_3_c_inv}
+ble_pack pwm0.PWM_proces.un8_brojac_cry_4_c_inv_LC_27 {pwm0.PWM_proces.un8_brojac_cry_4_c, pwm0.PWM_proces.un8_brojac_cry_4_c_inv}
+ble_pack pwm0.PWM_proces.un8_brojac_cry_5_c_inv_LC_28 {pwm0.PWM_proces.un8_brojac_cry_5_c, pwm0.PWM_proces.un8_brojac_cry_5_c_inv}
+ble_pack pwm0.pwm_out_LC_42 {pwm0.pwm_out, pwm0.pwm_out_THRU_LUT4_0}
+clb_pack PLB_2 {pwm0.PWM_proces.un8_brojac_cry_0_c_inv_LC_23, pwm0.PWM_proces.un8_brojac_cry_1_c_inv_LC_24, pwm0.PWM_proces.un8_brojac_cry_2_c_inv_LC_25, pwm0.PWM_proces.un8_brojac_cry_3_c_inv_LC_26, pwm0.PWM_proces.un8_brojac_cry_4_c_inv_LC_27, pwm0.PWM_proces.un8_brojac_cry_5_c_inv_LC_28, pwm0.pwm_out_LC_42}
+ble_pack pwm0.brojac[0]_LC_30 {pwm0.brojac[0], pwm0.brojac_cry_c[0], pwm0.brojac_RNO[0]}
+ble_pack pwm0.brojac[1]_LC_31 {pwm0.brojac[1], pwm0.brojac_cry_c[1], pwm0.brojac_RNO[1]}
+ble_pack pwm0.brojac[2]_LC_32 {pwm0.brojac[2], pwm0.brojac_cry_c[2], pwm0.brojac_RNO[2]}
+ble_pack pwm0.brojac[3]_LC_33 {pwm0.brojac[3], pwm0.brojac_cry_c[3], pwm0.brojac_RNO[3]}
+ble_pack pwm0.brojac[4]_LC_34 {pwm0.brojac[4], pwm0.brojac_cry_c[4], pwm0.brojac_RNO[4]}
+ble_pack pwm0.brojac[5]_LC_35 {pwm0.brojac[5], pwm0.brojac_RNO[5]}
+clb_pack PLB_3 {pwm0.brojac[0]_LC_30, pwm0.brojac[1]_LC_31, pwm0.brojac[2]_LC_32, pwm0.brojac[3]_LC_33, pwm0.brojac[4]_LC_34, pwm0.brojac[5]_LC_35}
+ble_pack pwm0.position[0]_LC_36 {pwm0.position[0], pwm0.position_cry_c[0], pwm0.position_RNO[0]}
+ble_pack pwm0.position[1]_LC_37 {pwm0.position[1], pwm0.position_cry_c[1], pwm0.position_RNO[1]}
+ble_pack pwm0.position[2]_LC_38 {pwm0.position[2], pwm0.position_cry_c[2], pwm0.position_RNO[2]}
+ble_pack pwm0.position[3]_LC_39 {pwm0.position[3], pwm0.position_cry_c[3], pwm0.position_RNO[3]}
+ble_pack pwm0.position[4]_LC_40 {pwm0.position[4], pwm0.position_cry_c[4], pwm0.position_RNO[4]}
+ble_pack pwm0.position[5]_LC_41 {pwm0.position[5], pwm0.position_RNO[5]}
+clb_pack PLB_4 {pwm0.position[0]_LC_36, pwm0.position[1]_LC_37, pwm0.position[2]_LC_38, pwm0.position[3]_LC_39, pwm0.position[4]_LC_40, pwm0.position[5]_LC_41}
+ble_pack pr1.CLK_out_RNIGNQL_LC_1 {pr1.CLK_out_RNIGNQL}
+ble_pack pr1.counter_RNI6IFO2[0]_LC_6 {pr1.counter_RNI6IFO2[0]}
+ble_pack pr1.counter_RNI0QOM4[0]_LC_5 {pr1.counter_RNI0QOM4[0]}
+ble_pack pr1.counter_RNIM7991[8]_LC_9 {pr1.counter_RNIM7991[8]}
+ble_pack pr1.counter_RNINC9K_0[6]_LC_10 {pr1.counter_RNINC9K_0[6]}
+ble_pack pr1.CLK_out_LC_2 {pr1.CLK_out, pr1.CLK_out_RNO}
+ble_pack pr1.CLK_out_RNO_0_LC_3 {pr1.CLK_out_RNO_0}
+ble_pack pr1.CLK_out_RNO_1_LC_4 {pr1.CLK_out_RNO_1}
+clb_pack PLB_5 {pr1.CLK_out_RNIGNQL_LC_1, pr1.counter_RNI6IFO2[0]_LC_6, pr1.counter_RNI0QOM4[0]_LC_5, pr1.counter_RNIM7991[8]_LC_9, pr1.counter_RNINC9K_0[6]_LC_10, pr1.CLK_out_LC_2, pr1.CLK_out_RNO_0_LC_3, pr1.CLK_out_RNO_1_LC_4}
+ble_pack pr1.counter_RNIG59K[8]_LC_8 {pr1.counter_RNIG59K[8]}
+ble_pack pr1.new_clk_e_RNIF4BP1_LC_21 {pr1.new_clk_e_RNIF4BP1}
+ble_pack pr1.CLK_out_RNI00VA_LC_0 {pr1.CLK_out_RNI00VA}
+ble_pack pr1.counter_RNINC9K[6]_LC_11 {pr1.counter_RNINC9K[6]}
+ble_pack pr1.new_clk_e_LC_22 {pr1.new_clk_e, pr1.new_clk_e_RNO}
+ble_pack pr1.counter_RNID57F[5]_LC_7 {pr1.counter_RNID57F[5]}
+ble_pack pwm0.brojac_RNIQ79U1[5]_LC_29 {pwm0.brojac_RNIQ79U1[5]}
+ble_pack LC_43 {CONSTANT_ONE_LUT4}
+clb_pack PLB_6 {pr1.counter_RNIG59K[8]_LC_8, pr1.new_clk_e_RNIF4BP1_LC_21, pr1.CLK_out_RNI00VA_LC_0, pr1.counter_RNINC9K[6]_LC_11, pr1.new_clk_e_LC_22, pr1.counter_RNID57F[5]_LC_7, pwm0.brojac_RNIQ79U1[5]_LC_29, LC_43}

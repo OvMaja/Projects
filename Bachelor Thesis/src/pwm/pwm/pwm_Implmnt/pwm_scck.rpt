@@ -1,0 +1,28 @@
+# Synopsys Constraint Checker(syntax only), version maplat, Build 987R, built Aug  4 2014
+# Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+
+# Written on Thu Jul 07 18:54:13 2016
+
+
+##### DESIGN INFO #######################################################
+
+Top View:                "main"
+Constraint File(s):      (none)
+
+#Run constraint checker to find more issues with constraints.
+#########################################################################
+
+
+
+No issues found in constraint syntax.
+
+
+
+Clock Summary
+**************
+
+Start                Requested     Requested     Clock        Clock                
+Clock                Frequency     Period        Type         Group                
+-----------------------------------------------------------------------------------
+main|CLK_3_33MHZ     384.0 MHz     2.604         inferred     Autoconstr_clkgroup_0
+===================================================================================

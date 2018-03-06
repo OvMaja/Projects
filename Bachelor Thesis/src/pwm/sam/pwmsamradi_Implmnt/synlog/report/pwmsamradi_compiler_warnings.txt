@@ -1,0 +1,2 @@
+@W: CD638 :"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":17:8:17:15|Signal pozicija is undriven 
+

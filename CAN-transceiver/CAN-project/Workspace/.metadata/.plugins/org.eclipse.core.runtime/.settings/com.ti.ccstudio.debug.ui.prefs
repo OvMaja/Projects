@@ -1,0 +1,5 @@
+RELOAD_PROGRAM_IF_CHANGED=always
+eclipse.preferences.version=1
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.debug.ui.memory.memorybrowser.MemoryBrowser<seperator>TI\ MSP430\ USB1\\MSP430=os_runningTask,0xb14c,0x43f0,0x43fa,0x2400
+symbolAutoCompleteHistory<seperator>org.eclipse.cdt.dsf.debug.ui.disassembly.view<seperator>TI\ MSP430\ USB1\\MSP430=34912,0x64c2,0x85b4,0x801c,0x85b0,0x2400
+useAnnotationsPrefPage=true

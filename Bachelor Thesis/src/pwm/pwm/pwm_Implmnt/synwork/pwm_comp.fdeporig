@@ -1,0 +1,29 @@
+#defaultlanguage:vhdl
+#OPTIONS:"|-prodtype|synplify_pro|-primux|-fixsmult|-infer_seqShift|-ice|-sdff_counter|-nram|-divnmod|-nostructver|-encrypt|-pro|-lite|-ui|-fid2|-ram|-sharing|on|-ll|2000|-autosm|-ignore_undefined_lib|-lib|work|-lib|work"
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\bin64\\c_vhdl.exe":1458140467
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\lib\\vhd\\location.map":1458140499
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\lib\\vhd\\std.vhd":1458140499
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\lib\\vhd\\snps_haps_pkg.vhd":1458140499
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\lib\\vhd\\std1164.vhd":1458140499
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\lib\\vhd\\numeric.vhd":1458140499
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\lib\\vhd\\umr_capim.vhd":1458140499
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\lib\\vhd\\arith.vhd":1458140499
+#CUR:"C:\\fpga-2014\\SBTools\\synpbase\\lib\\vhd\\unsigned.vhd":1458140499
+#CUR:"C:\\Users\\Maja Ovcarik\\Desktop\\pwm\\pwm\\main_radi1.vhd":1467910448
+#CUR:"C:\\Users\\Maja Ovcarik\\Desktop\\pwm\\pwm\\pwm_sama_radi1.vhd":1463702466
+0 "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\main_radi1.vhd" vhdl
+1 "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_sama_radi1.vhd" vhdl
+
+# Dependency Lists (Uses list)
+0 1 
+1 -1
+
+# Dependency Lists (Users Of)
+0 -1
+1 0 
+
+# Design Unit to File Association
+arch work main behavioral 0
+module work main 0
+arch work pwm ponasanje 1
+module work pwm 1

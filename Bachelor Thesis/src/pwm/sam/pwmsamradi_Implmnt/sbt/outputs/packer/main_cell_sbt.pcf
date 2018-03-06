@@ -1,0 +1,65 @@
+ble_pack pr1.counter_0_LC_7_5_0 { pr1.counter_RNO[0], pr1.counter[0], pr1.counter_cry_c[0] }
+ble_pack pr1.counter_1_LC_7_5_1 { pr1.counter_RNO[1], pr1.counter[1], pr1.counter_cry_c[1] }
+ble_pack pr1.counter_2_LC_7_5_2 { pr1.counter_RNO[2], pr1.counter[2], pr1.counter_cry_c[2] }
+ble_pack pr1.counter_3_LC_7_5_3 { pr1.counter_RNO[3], pr1.counter[3], pr1.counter_cry_c[3] }
+ble_pack pr1.counter_4_LC_7_5_4 { pr1.counter_RNO[4], pr1.counter[4], pr1.counter_cry_c[4] }
+ble_pack pr1.counter_5_LC_7_5_5 { pr1.counter_RNO[5], pr1.counter[5], pr1.counter_cry_c[5] }
+ble_pack pr1.counter_6_LC_7_5_6 { pr1.counter_RNO[6], pr1.counter[6], pr1.counter_cry_c[6] }
+ble_pack pr1.counter_7_LC_7_5_7 { pr1.counter_RNO[7], pr1.counter[7], pr1.counter_cry_c[7] }
+clb_pack LT_7_5 { pr1.counter_0_LC_7_5_0, pr1.counter_1_LC_7_5_1, pr1.counter_2_LC_7_5_2, pr1.counter_3_LC_7_5_3, pr1.counter_4_LC_7_5_4, pr1.counter_5_LC_7_5_5, pr1.counter_6_LC_7_5_6, pr1.counter_7_LC_7_5_7 }
+set_location LT_7_5 7 5
+ble_pack pr1.counter_8_LC_7_6_0 { pr1.counter_RNO[8], pr1.counter[8] }
+ble_pack pr1.counter_RNID57F_5_LC_7_6_1 { pr1.counter_RNID57F[5] }
+ble_pack pr1.CLK_out_RNI00VA_LC_7_6_2 { pr1.CLK_out_RNI00VA }
+ble_pack pr1.counter_RNIG59K_8_LC_7_6_3 { pr1.counter_RNIG59K[8] }
+ble_pack pr1.CLK_out_RNIGNQL_LC_7_6_4 { pr1.CLK_out_RNIGNQL }
+ble_pack pr1.CLK_out_RNO_1_LC_7_6_5 { pr1.CLK_out_RNO_1 }
+ble_pack pr1.CLK_out_RNO_0_LC_7_6_6 { pr1.CLK_out_RNO_0 }
+ble_pack pr1.CLK_out_LC_7_6_7 { pr1.CLK_out_RNO, pr1.CLK_out }
+clb_pack LT_7_6 { pr1.counter_8_LC_7_6_0, pr1.counter_RNID57F_5_LC_7_6_1, pr1.CLK_out_RNI00VA_LC_7_6_2, pr1.counter_RNIG59K_8_LC_7_6_3, pr1.CLK_out_RNIGNQL_LC_7_6_4, pr1.CLK_out_RNO_1_LC_7_6_5, pr1.CLK_out_RNO_0_LC_7_6_6, pr1.CLK_out_LC_7_6_7 }
+set_location LT_7_6 7 6
+ble_pack pr1.new_clk_e_LC_7_7_4 { pr1.new_clk_e_RNO, pr1.new_clk_e }
+clb_pack LT_7_7 { pr1.new_clk_e_LC_7_7_4 }
+set_location LT_7_7 7 7
+ble_pack pr1.counter_RNIM7991_8_LC_8_6_0 { pr1.counter_RNIM7991[8] }
+ble_pack pr1.counter_RNI6IFO2_0_LC_8_6_1 { pr1.counter_RNI6IFO2[0] }
+ble_pack pr1.counter_RNI0QOM4_0_LC_8_6_2 { pr1.counter_RNI0QOM4[0] }
+ble_pack pr1.counter_RNINC9K_0_6_LC_8_6_3 { pr1.counter_RNINC9K_0[6] }
+ble_pack pwm0.brojac_RNIQ79U1_5_LC_8_6_4 { pwm0.brojac_RNIQ79U1[5] }
+ble_pack pr1.counter_RNINC9K_6_LC_8_6_5 { pr1.counter_RNINC9K[6] }
+ble_pack pr1.new_clk_e_RNIF4BP1_LC_8_6_6 { pr1.new_clk_e_RNIF4BP1 }
+clb_pack LT_8_6 { pr1.counter_RNIM7991_8_LC_8_6_0, pr1.counter_RNI6IFO2_0_LC_8_6_1, pr1.counter_RNI0QOM4_0_LC_8_6_2, pr1.counter_RNINC9K_0_6_LC_8_6_3, pwm0.brojac_RNIQ79U1_5_LC_8_6_4, pr1.counter_RNINC9K_6_LC_8_6_5, pr1.new_clk_e_RNIF4BP1_LC_8_6_6 }
+set_location LT_8_6 8 6
+ble_pack pwm0.brojac_0_LC_8_7_0 { pwm0.brojac_RNO[0], pwm0.brojac[0], pwm0.brojac_cry_c[0] }
+ble_pack pwm0.brojac_1_LC_8_7_1 { pwm0.brojac_RNO[1], pwm0.brojac[1], pwm0.brojac_cry_c[1] }
+ble_pack pwm0.brojac_2_LC_8_7_2 { pwm0.brojac_RNO[2], pwm0.brojac[2], pwm0.brojac_cry_c[2] }
+ble_pack pwm0.brojac_3_LC_8_7_3 { pwm0.brojac_RNO[3], pwm0.brojac[3], pwm0.brojac_cry_c[3] }
+ble_pack pwm0.brojac_4_LC_8_7_4 { pwm0.brojac_RNO[4], pwm0.brojac[4], pwm0.brojac_cry_c[4] }
+ble_pack pwm0.brojac_5_LC_8_7_5 { pwm0.brojac_RNO[5], pwm0.brojac[5] }
+clb_pack LT_8_7 { pwm0.brojac_0_LC_8_7_0, pwm0.brojac_1_LC_8_7_1, pwm0.brojac_2_LC_8_7_2, pwm0.brojac_3_LC_8_7_3, pwm0.brojac_4_LC_8_7_4, pwm0.brojac_5_LC_8_7_5 }
+set_location LT_8_7 8 7
+ble_pack pwm0.position_0_LC_9_6_0 { pwm0.position_RNO[0], pwm0.position[0], pwm0.position_cry_c[0] }
+ble_pack pwm0.position_1_LC_9_6_1 { pwm0.position_RNO[1], pwm0.position[1], pwm0.position_cry_c[1] }
+ble_pack pwm0.position_2_LC_9_6_2 { pwm0.position_RNO[2], pwm0.position[2], pwm0.position_cry_c[2] }
+ble_pack pwm0.position_3_LC_9_6_3 { pwm0.position_RNO[3], pwm0.position[3], pwm0.position_cry_c[3] }
+ble_pack pwm0.position_4_LC_9_6_4 { pwm0.position_RNO[4], pwm0.position[4], pwm0.position_cry_c[4] }
+ble_pack pwm0.position_5_LC_9_6_5 { pwm0.position_RNO[5], pwm0.position[5] }
+clb_pack LT_9_6 { pwm0.position_0_LC_9_6_0, pwm0.position_1_LC_9_6_1, pwm0.position_2_LC_9_6_2, pwm0.position_3_LC_9_6_3, pwm0.position_4_LC_9_6_4, pwm0.position_5_LC_9_6_5 }
+set_location LT_9_6 9 6
+ble_pack pwm0.PWM_proces_un8_brojac_cry_0_c_inv_LC_9_7_0 { pwm0.PWM_proces.un8_brojac_cry_0_c_inv, pwm0.PWM_proces.un8_brojac_cry_0_c }
+ble_pack pwm0.PWM_proces_un8_brojac_cry_1_c_inv_LC_9_7_1 { pwm0.PWM_proces.un8_brojac_cry_1_c_inv, pwm0.PWM_proces.un8_brojac_cry_1_c }
+ble_pack pwm0.PWM_proces_un8_brojac_cry_2_c_inv_LC_9_7_2 { pwm0.PWM_proces.un8_brojac_cry_2_c_inv, pwm0.PWM_proces.un8_brojac_cry_2_c }
+ble_pack pwm0.PWM_proces_un8_brojac_cry_3_c_inv_LC_9_7_3 { pwm0.PWM_proces.un8_brojac_cry_3_c_inv, pwm0.PWM_proces.un8_brojac_cry_3_c }
+ble_pack pwm0.PWM_proces_un8_brojac_cry_4_c_inv_LC_9_7_4 { pwm0.PWM_proces.un8_brojac_cry_4_c_inv, pwm0.PWM_proces.un8_brojac_cry_4_c }
+ble_pack pwm0.PWM_proces_un8_brojac_cry_5_c_inv_LC_9_7_5 { pwm0.PWM_proces.un8_brojac_cry_5_c_inv, pwm0.PWM_proces.un8_brojac_cry_5_c }
+ble_pack pwm0.pwm_out_LC_9_7_6 { pwm0.pwm_out_THRU_LUT4_0, pwm0.pwm_out }
+clb_pack LT_9_7 { pwm0.PWM_proces_un8_brojac_cry_0_c_inv_LC_9_7_0, pwm0.PWM_proces_un8_brojac_cry_1_c_inv_LC_9_7_1, pwm0.PWM_proces_un8_brojac_cry_2_c_inv_LC_9_7_2, pwm0.PWM_proces_un8_brojac_cry_3_c_inv_LC_9_7_3, pwm0.PWM_proces_un8_brojac_cry_4_c_inv_LC_9_7_4, pwm0.PWM_proces_un8_brojac_cry_5_c_inv_LC_9_7_5, pwm0.pwm_out_LC_9_7_6 }
+set_location LT_9_7 9 7
+ble_pack CONSTANT_ONE_LUT4_LC_12_6_6 { CONSTANT_ONE_LUT4 }
+clb_pack LT_12_6 { CONSTANT_ONE_LUT4_LC_12_6_6 }
+set_location LT_12_6 12 6
+set_io LED2 53
+set_io LED0 59
+set_io CLK 13
+set_io LED3 51
+set_io LED1 56

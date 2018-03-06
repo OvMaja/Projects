@@ -1,0 +1,51 @@
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 987R, Built Aug  4 2014 10:41:20
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2014.03L-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi_scck.rpt 
+Printing clock  summary report in "C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+ICG Latch Removal takes time: 0.000000 [s]. 
+syn_allowed_resources : blockrams=16  set on top level netlist main
+
+
+@S |Clock Summary
+****************
+
+Start                             Requested     Requested     Clock                       Clock                
+Clock                             Frequency     Period        Type                        Group                
+---------------------------------------------------------------------------------------------------------------
+clk_mod|CLK_out_derived_clock     1.0 MHz       1000.000      derived (from main|CLK)     Autoconstr_clkgroup_0
+main|CLK                          1.0 MHz       1000.000      inferred                    Autoconstr_clkgroup_0
+===============================================================================================================
+
+@W: MT529 :"c:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd":21:2:21:3|Found inferred clock main|CLK which controls 11 sequential elements including pr1.counter[8:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat May 28 00:10:30 2016
+
+###########################################################]

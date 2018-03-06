@@ -1,0 +1,13 @@
+C:\fpga-2014\SBTools\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\report\pwmsamradi_premap.xml  -oedif  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.edf  -conchk_prepass  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi_cck_prepass.rpt   -autoconstraint  -freq 1.000   C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_mult.srs  -flow prepass  -gcc_prepass  -osrd  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_prem.srd  -qsap  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap  -devicelib  C:\fpga-2014\SBTools\synpbase\lib\generic\sb_ice40.v  -ologparam  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\syntmp\pwmsamradi.plg  -osyn  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_prem.srd  -prjdir  C:\fpga\pwm\pwmsamradi\  -prjname  pwmsamradi_syn  -log  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\pwmsamradi_premap.srr 
+rc:1 success:1
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.edf|o|0|0
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi_cck_prepass.rpt|o|0|0
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_mult.srs|i|1464387030|2436
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_prem.srd|o|1464387030|5616
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap|o|1464387031|1729
+C:\fpga-2014\SBTools\synpbase\lib\generic\sb_ice40.v|i|1458140482|222921
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\syntmp\pwmsamradi.plg|o|1464387030|0
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_prem.srd|o|1464387030|5616
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\pwmsamradi_premap.srr|o|1464387031|3033
+C:\fpga-2014\SBTools\synpbase\bin\m_generic.exe|i|1458140455|22806528
+C:\fpga-2014\SBTools\synpbase\bin64\m_generic.exe|i|1458140476|34561024

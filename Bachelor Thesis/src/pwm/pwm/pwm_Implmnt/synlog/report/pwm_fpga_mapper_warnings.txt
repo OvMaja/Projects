@@ -1,0 +1,1 @@
+@W: MT420 |Found inferred clock main|CLK_3_33MHZ with period 5.12ns. Please declare a user-defined clock on object "p:CLK_3_33MHZ"

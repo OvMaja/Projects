@@ -1,0 +1,7 @@
+C:\fpga-2014\SBTools\synpbase\bin64\syn_nfilter.exe  -link  -multisrs  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_comp.srs  -osyn  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_mult.srs  -log  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\pwmsamradi_multi_srs_gen.srr 
+rc:0 success:1
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_comp.srs|i|1464387029|3244
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_mult.srs|o|1464387030|2436
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\pwmsamradi_multi_srs_gen.srr|o|1464387030|727
+C:\fpga-2014\SBTools\synpbase\bin\syn_nfilter.exe|i|1458140465|2743296
+C:\fpga-2014\SBTools\synpbase\bin64\syn_nfilter.exe|i|1458140476|6340608

@@ -1,0 +1,7 @@
+39
+~E 1 "C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd" 8 clk_mod
+~A 1 "C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd" 18 ponasanje
+~E 1 "C:/fpga/pwm/pwm/main_za_pwm_samradi.vhd" 6 main
+~A 1 "C:/fpga/pwm/pwm/main_za_pwm_samradi.vhd" 15 Behavioral
+~E 1 "C:/fpga/pwm/pwm/pwm_samradi.vhd" 7 PWM
+~A 1 "C:/fpga/pwm/pwm/pwm_samradi.vhd" 14 ponasanje

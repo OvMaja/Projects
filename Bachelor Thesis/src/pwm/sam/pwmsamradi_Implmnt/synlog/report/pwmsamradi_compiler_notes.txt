@@ -1,0 +1,7 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\fpga-2014\SBTools\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":6:7:6:10|Top entity is set to main.
+@N: CD630 :"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":6:7:6:10|Synthesizing work.main.behavioral 
+@N: CD630 :"C:\fpga\pwm\pwm\pwm_samradi.vhd":7:7:7:9|Synthesizing work.pwm.ponasanje 
+@N: CD630 :"C:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd":8:7:8:13|Synthesizing work.clk_mod.ponasanje 
+

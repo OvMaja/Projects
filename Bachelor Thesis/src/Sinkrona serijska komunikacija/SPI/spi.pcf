@@ -1,0 +1,23 @@
+#################################
+# iCEblink40 HX1K Demonstration Design
+# Family & Device:    iCE40HX1K
+# Package:            VQ100
+#################################
+# LED outputs
+set_io LED0 59
+set_io LED1 56
+set_io LED2 53
+set_io LED3 51
+
+#SPI
+set_io SPI_CLK 48
+set_io SPI_SS 49
+set_io SPI_MOSI 46
+set_io SPI_MISO 45
+
+# 3.3 MHz clock input
+set_io CLK_in 13
+
+
+# SPI Flash enable control
+set_io SS_B 49

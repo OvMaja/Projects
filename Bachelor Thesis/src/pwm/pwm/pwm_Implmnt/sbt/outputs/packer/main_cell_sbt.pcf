@@ -1,0 +1,23 @@
+ble_pack pwm0.brojac_0_LC_8_7_0 { pwm0.brojac_RNO[0], pwm0.brojac[0], pwm0.brojac_cry_c[0] }
+ble_pack pwm0.brojac_1_LC_8_7_1 { pwm0.brojac_RNO[1], pwm0.brojac[1], pwm0.brojac_cry_c[1] }
+ble_pack pwm0.brojac_2_LC_8_7_2 { pwm0.brojac_RNO[2], pwm0.brojac[2], pwm0.brojac_cry_c[2] }
+ble_pack pwm0.brojac_3_LC_8_7_3 { pwm0.brojac_RNO[3], pwm0.brojac[3], pwm0.brojac_cry_c[3] }
+ble_pack pwm0.brojac_4_LC_8_7_4 { pwm0.brojac_RNO[4], pwm0.brojac[4], pwm0.brojac_cry_c[4] }
+ble_pack pwm0.brojac_5_LC_8_7_5 { pwm0.brojac_RNO[5], pwm0.brojac[5], pwm0.brojac_cry_c[5] }
+ble_pack pwm0.brojac_6_LC_8_7_6 { pwm0.brojac_RNO[6], pwm0.brojac[6], pwm0.brojac_cry_c[6] }
+ble_pack pwm0.brojac_7_LC_8_7_7 { pwm0.brojac_RNO[7], pwm0.brojac[7] }
+clb_pack LT_8_7 { pwm0.brojac_0_LC_8_7_0, pwm0.brojac_1_LC_8_7_1, pwm0.brojac_2_LC_8_7_2, pwm0.brojac_3_LC_8_7_3, pwm0.brojac_4_LC_8_7_4, pwm0.brojac_5_LC_8_7_5, pwm0.brojac_6_LC_8_7_6, pwm0.brojac_7_LC_8_7_7 }
+set_location LT_8_7 8 7
+ble_pack pwm0.pwm_out_RNO_0_LC_9_7_0 { pwm0.pwm_out_RNO_0 }
+ble_pack pwm0.pwm_out_LC_9_7_1 { pwm0.pwm_out_RNO, pwm0.pwm_out }
+ble_pack pwm0.pwm_out_RNO_1_LC_9_7_2 { pwm0.pwm_out_RNO_1 }
+clb_pack LT_9_7 { pwm0.pwm_out_RNO_0_LC_9_7_0, pwm0.pwm_out_LC_9_7_1, pwm0.pwm_out_RNO_1_LC_9_7_2 }
+set_location LT_9_7 9 7
+ble_pack CONSTANT_ONE_LUT4_LC_12_6_6 { CONSTANT_ONE_LUT4 }
+clb_pack LT_12_6 { CONSTANT_ONE_LUT4_LC_12_6_6 }
+set_location LT_12_6 12 6
+set_io LED2 53
+set_io LED0 59
+set_io CLK_3_33MHZ 13
+set_io LED3 51
+set_io LED1 56

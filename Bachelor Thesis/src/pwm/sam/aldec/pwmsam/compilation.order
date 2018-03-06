@@ -1,0 +1,3 @@
+.\..\..\..\pwm\pwm_samradi.vhd
+.\..\..\..\pwm\main_za_pwm_samradi.vhd
+.\..\..\..\pwm\clockmodif_za_pwmsam1.vhd

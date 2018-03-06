@@ -1,0 +1,4 @@
+"C:\fpga\pwm\pwm\pwm_samradi.vhd" VHDL pwmsam 1 0 0 -02
+"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd" VHDL pwmsam 1 0 0 -02
+"C:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd" VHDL pwmsam 1 0 0 -02
+. . 0 0 0

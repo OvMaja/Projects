@@ -1,0 +1,2 @@
+[VIC]
+pwm0.pwm_out_RNOZ0Z_0_cascade_=ltout:in0

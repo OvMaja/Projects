@@ -1,0 +1,4 @@
+#1000 define_clock {p:CLK} -name {main|CLK} -ref_rise {0.0} -ref_fall {3.302050} -uncertainty {0.000000} -period {6.604100} -clockgroup {Autoconstr_clkgroup_0} -rise {0.0} -fall {3.302050}
+#1001 define_clock {n:pr1.CLK_out} -name {clk_mod|CLK_out_derived_clock} -ref_rise {0.0} -ref_fall {3.302050} -uncertainty {0.000000} -period {6.604100} -clockgroup {Autoconstr_clkgroup_0} -rise {0.0} -fall {3.302050}
+#1002 define_multicycle_path -setup -from {c:clk_mod|CLK_out_derived_clock} -to {c:clk_mod|CLK_out_derived_clock} {2}
+#1003 define_multicycle_path -hold -from {c:clk_mod|CLK_out_derived_clock} -to {c:clk_mod|CLK_out_derived_clock} {1}

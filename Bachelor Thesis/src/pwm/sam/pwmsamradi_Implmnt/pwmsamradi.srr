@@ -1,0 +1,547 @@
+#Build: Synplify Pro I-2014.03L-SP1 , Build 045R, Jul 30 2014
+#install: C:\fpga-2014\SBTools\synpbase
+#OS: Windows 7 6.2
+#Hostname: MAJA
+
+#Implementation: pwmsamradi_Implmnt
+
+Synopsys VHDL Compiler, version comp201403sp1p1, Build 043R, built Jul 30 2014
+@N|Running in 64-bit mode
+Copyright (C) 1994-2014 Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use, reproduction, or distribution of this software is strictly prohibited.
+
+@N: CD720 :"C:\fpga-2014\SBTools\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":6:7:6:10|Top entity is set to main.
+File C:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd changed - recompiling
+File C:\fpga\pwm\pwm\pwm_samradi.vhd changed - recompiling
+File C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd changed - recompiling
+VHDL syntax check successful!
+@N: CD630 :"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":6:7:6:10|Synthesizing work.main.behavioral 
+@N: CD630 :"C:\fpga\pwm\pwm\pwm_samradi.vhd":7:7:7:9|Synthesizing work.pwm.ponasanje 
+Post processing for work.pwm.ponasanje
+@N: CD630 :"C:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd":8:7:8:13|Synthesizing work.clk_mod.ponasanje 
+Post processing for work.clk_mod.ponasanje
+Post processing for work.main.behavioral
+@END
+
+At c_vhdl Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 69MB peak: 70MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat May 28 00:10:29 2016
+
+###########################################################]
+Synopsys Netlist Linker, version comp201403sp1p1, Build 043R, built Jul 30 2014
+@N|Running in 64-bit mode
+File C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_comp.srs changed - recompiling
+@N: NF107 :"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":6:7:6:10|Selected library: work cell: main view behavioral as top level
+@N: NF107 :"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":6:7:6:10|Selected library: work cell: main view behavioral as top level
+
+At syn_nfilter Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 68MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat May 28 00:10:30 2016
+
+###########################################################]
+Pre-mapping Report
+
+Synopsys Lattice Technology Pre-mapping, Version maplat, Build 987R, Built Aug  4 2014 10:41:20
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2014.03L-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@L: C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi_scck.rpt 
+Printing clock  summary report in "C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi_scck.rpt" file 
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 101MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 101MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 100MB peak: 103MB)
+
+ICG Latch Removal Summary:
+Number of ICG latches removed:	0
+Number of ICG latches not removed:	0
+ICG Latch Removal takes time: 0.000000 [s]. 
+syn_allowed_resources : blockrams=16  set on top level netlist main
+
+
+@S |Clock Summary
+****************
+
+Start                             Requested     Requested     Clock                       Clock                
+Clock                             Frequency     Period        Type                        Group                
+---------------------------------------------------------------------------------------------------------------
+clk_mod|CLK_out_derived_clock     1.0 MHz       1000.000      derived (from main|CLK)     Autoconstr_clkgroup_0
+main|CLK                          1.0 MHz       1000.000      inferred                    Autoconstr_clkgroup_0
+===============================================================================================================
+
+@W: MT529 :"c:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd":21:2:21:3|Found inferred clock main|CLK which controls 11 sequential elements including pr1.counter[8:0]. This clock has no specified timing constraint which may prevent conversion of gated or generated clocks and may adversely impact design performance. 
+
+Finished Pre Mapping Phase.
+@N: BN225 |Writing default property annotation file C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap.
+Pre-mapping successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 67MB peak: 132MB)
+
+Process took 0h:00m:01s realtime, 0h:00m:01s cputime
+# Sat May 28 00:10:30 2016
+
+###########################################################]
+Map & Optimize Report
+
+Synopsys Lattice Technology Mapper, Version maplat, Build 987R, Built Aug  4 2014 10:41:20
+Copyright (C) 1994-2013, Synopsys, Inc. This software and the associated documentation are proprietary to Synopsys, Inc. This software may only be used in accordance with the terms and conditions of a written license agreement with Synopsys, Inc.  All other use or distribution of the software is strictly prohibited.
+Product Version I-2014.03L-SP1 
+
+Mapper Startup Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 99MB)
+
+@N: MF248 |Running in 64-bit mode.
+@N: MF666 |Clock conversion enabled 
+
+Design Input Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Mapper Initialization Complete (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 98MB peak: 100MB)
+
+
+Start loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 100MB)
+
+
+Finished loading timing files (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 99MB peak: 102MB)
+
+
+
+Starting Optimization and Mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+
+Available hyper_sources - for debug and ip models
+	None Found
+
+@N: MT206 |Auto Constrain mode is enabled
+
+Finished RTL optimizations (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+@N:"c:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd":21:2:21:3|Found counter in view:work.clk_mod(ponasanje) inst counter[8:0]
+@N:"c:\fpga\pwm\pwm\pwm_samradi.vhd":22:6:22:7|Found counter in view:work.PWM(ponasanje) inst position[5:0]
+@N:"c:\fpga\pwm\pwm\pwm_samradi.vhd":22:6:22:7|Found counter in view:work.PWM(ponasanje) inst brojac[5:0]
+
+Finished factoring (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+
+Finished gated-clock and generated-clock conversion (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished generic timing optimizations - Pass 1 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Starting Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished Early Timing Optimization (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished generic timing optimizations - Pass 2 (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 129MB peak: 132MB)
+
+
+Finished preparing to map (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished technology mapping (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.79ns		  35 /        24
+------------------------------------------------------------
+
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.79ns		  40 /        24
+------------------------------------------------------------
+
+
+
+Pass		 CPU time		Worst Slack		Luts / Registers
+------------------------------------------------------------
+   1		0h:00m:00s		    -1.79ns		  40 /        24
+------------------------------------------------------------
+
+@N: FX1016 :"c:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":7:7:7:9|SB_GB_IO inserted on the port CLK.
+
+Finished technology timing optimizations and critical path resynthesis (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+Finished restoring hierarchy (Real Time elapsed 0h:00m:00s; CPU Time elapsed 0h:00m:00s; Memory used current: 130MB peak: 132MB)
+
+
+
+#### START OF CLOCK OPTIMIZATION REPORT #####[
+
+1 non-gated/non-generated clock tree(s) driving 24 clock pin(s) of sequential element(s)
+0 gated/generated clock tree(s) driving 0 clock pin(s) of sequential element(s)
+13 instances converted, 0 sequential instances remain driven by gated/generated clocks
+
+=========================== Non-Gated/Non-Generated Clocks ============================
+Clock Tree ID     Driving Element     Drive Element Type     Fanout     Sample Instance
+---------------------------------------------------------------------------------------
+@K:CKID0001       CLK_ibuf_gb_io      SB_GB_IO               24         pr1.counter[8] 
+=======================================================================================
+
+
+##### END OF CLOCK OPTIMIZATION REPORT ######]
+
+Writing Analyst data base C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 132MB)
+
+Writing Analyst data base C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_m.srm
+
+Finished Writing Netlist Databases (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 130MB peak: 132MB)
+
+Writing EDIF Netlist and constraint files
+@W: MT558 |Unable to locate source for clock clk_mod|CLK_out_derived_clock. Clock will not be forward annotated
+@N: BW103 |Synopsys Constraint File time units using default value of 1ns 
+@N: BW107 |Synopsys Constraint File capacitance units using default value of 1pF 
+I-2014.03L-SP1 
+
+Finished Writing EDIF Netlist and constraint files (Real Time elapsed 0h:00m:01s; CPU Time elapsed 0h:00m:01s; Memory used current: 131MB peak: 133MB)
+
+@W: MT420 |Found inferred clock main|CLK with period 6.60ns. Please declare a user-defined clock on object "p:CLK"
+
+
+
+@S |##### START OF TIMING REPORT #####[
+# Timing Report written on Sat May 28 00:10:33 2016
+#
+
+
+Top view:               main
+Requested Frequency:    151.4 MHz
+Wire load mode:         top
+Paths requested:        5
+Constraint File(s):    
+@N: MT320 |Timing report estimates place and route data. Please look at the place and route timing report for final timing.
+
+@N: MT322 |Clock constraints cover only FF-to-FF paths associated with the clock.
+
+
+
+Performance Summary 
+*******************
+
+
+Worst slack in design: -1.165
+
+                                  Requested     Estimated     Requested     Estimated                Clock                       Clock                
+Starting Clock                    Frequency     Frequency     Period        Period        Slack      Type                        Group                
+------------------------------------------------------------------------------------------------------------------------------------------------------
+clk_mod|CLK_out_derived_clock     151.4 MHz     NA            6.604         NA            NA         derived (from main|CLK)     Autoconstr_clkgroup_0
+main|CLK                          151.4 MHz     128.7 MHz     6.604         7.769         -1.165     inferred                    Autoconstr_clkgroup_0
+======================================================================================================================================================
+
+
+
+
+
+Clock Relationships
+*******************
+
+Clocks              |    rise  to  rise    |    fall  to  fall   |    rise  to  fall   |    fall  to  rise 
+-----------------------------------------------------------------------------------------------------------
+Starting  Ending    |  constraint  slack   |  constraint  slack  |  constraint  slack  |  constraint  slack
+-----------------------------------------------------------------------------------------------------------
+main|CLK  main|CLK  |  6.604       -1.165  |  No paths    -      |  No paths    -      |  No paths    -    
+===========================================================================================================
+ Note: 'No paths' indicates there are no paths in the design for that pair of clock edges.
+       'Diff grp' indicates that paths exist but the starting clock and ending clock are in different clock groups.
+
+
+
+Interface Information 
+*********************
+
+No IO constraint found
+
+
+
+====================================
+Detailed Report for Clock: main|CLK
+====================================
+
+
+
+Starting Points with Worst Slack
+********************************
+
+                   Starting                                         Arrival           
+Instance           Reference     Type        Pin     Net            Time        Slack 
+                   Clock                                                              
+--------------------------------------------------------------------------------------
+pr1.counter[1]     main|CLK      SB_DFF      Q       counter[1]     0.540       -1.165
+pr1.counter[5]     main|CLK      SB_DFF      Q       counter[5]     0.540       -1.130
+pr1.counter[3]     main|CLK      SB_DFF      Q       counter[3]     0.540       -1.116
+pr1.counter[8]     main|CLK      SB_DFF      Q       counter[8]     0.540       -1.095
+pr1.counter[2]     main|CLK      SB_DFF      Q       counter[2]     0.540       -1.081
+pr1.CLK_out        main|CLK      SB_DFF      Q       CLK_out_i      0.540       -1.060
+pwm0.brojac[0]     main|CLK      SB_DFFE     Q       brojac[0]      0.540       -1.060
+pr1.counter[4]     main|CLK      SB_DFF      Q       counter[4]     0.540       -1.032
+pr1.counter[6]     main|CLK      SB_DFF      Q       counter[6]     0.540       -1.011
+pwm0.brojac[1]     main|CLK      SB_DFFE     Q       brojac[1]      0.540       -0.997
+======================================================================================
+
+
+Ending Points with Worst Slack
+******************************
+
+                     Starting                                                  Required           
+Instance             Reference     Type        Pin     Net                     Time         Slack 
+                     Clock                                                                        
+--------------------------------------------------------------------------------------------------
+pr1.CLK_out          main|CLK      SB_DFF      D       CLK_out                 6.499        -1.165
+pwm0.position[0]     main|CLK      SB_DFFE     E       counter_RNI0QOM4[0]     6.604        -1.130
+pwm0.position[1]     main|CLK      SB_DFFE     E       counter_RNI0QOM4[0]     6.604        -1.130
+pwm0.position[2]     main|CLK      SB_DFFE     E       counter_RNI0QOM4[0]     6.604        -1.130
+pwm0.position[3]     main|CLK      SB_DFFE     E       counter_RNI0QOM4[0]     6.604        -1.130
+pwm0.position[4]     main|CLK      SB_DFFE     E       counter_RNI0QOM4[0]     6.604        -1.130
+pwm0.position[5]     main|CLK      SB_DFFE     E       counter_RNI0QOM4[0]     6.604        -1.130
+pr1.new_clk_e        main|CLK      SB_DFFE     D       new_clk_e_RNO           6.499        0.584 
+pwm0.brojac[0]       main|CLK      SB_DFFE     E       new_clk_e_RNIF4BP1      6.604        0.690 
+pwm0.brojac[1]       main|CLK      SB_DFFE     E       new_clk_e_RNIF4BP1      6.604        0.690 
+==================================================================================================
+
+
+
+Worst Path Information
+***********************
+
+
+Path information for path number 1: 
+      Requested Period:                      6.604
+    - Setup time:                            0.105
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.499
+
+    - Propagation time:                      7.664
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (critical) :                     -1.165
+
+    Number of logic level(s):                3
+    Starting point:                          pr1.counter[1] / Q
+    Ending point:                            pr1.CLK_out / D
+    The start point is clocked by            main|CLK [rising] on pin C
+    The end   point is clocked by            main|CLK [rising] on pin C
+
+Instance / Net                    Pin      Pin               Arrival     No. of    
+Name                  Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------
+pr1.counter[1]        SB_DFF      Q        Out     0.540     0.540       -         
+counter[1]            Net         -        -       1.599     -           5         
+pr1.CLK_out_RNO_1     SB_LUT4     I0       In      -         2.139       -         
+pr1.CLK_out_RNO_1     SB_LUT4     O        Out     0.449     2.588       -         
+CLK_out_RNO_1         Net         -        -       1.371     -           1         
+pr1.CLK_out_RNO_0     SB_LUT4     I0       In      -         3.959       -         
+pr1.CLK_out_RNO_0     SB_LUT4     O        Out     0.449     4.408       -         
+un8_counter_1         Net         -        -       1.371     -           1         
+pr1.CLK_out_RNO       SB_LUT4     I2       In      -         5.779       -         
+pr1.CLK_out_RNO       SB_LUT4     O        Out     0.379     6.157       -         
+CLK_out               Net         -        -       1.507     -           1         
+pr1.CLK_out           SB_DFF      D        In      -         7.664       -         
+===================================================================================
+Total path delay (propagation time + setup) of 7.769 is 1.922(24.7%) logic and 5.848(75.3%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 2: 
+      Requested Period:                      6.604
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.604
+
+    - Propagation time:                      7.734
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.130
+
+    Number of logic level(s):                3
+    Starting point:                          pr1.counter[5] / Q
+    Ending point:                            pwm0.position[0] / E
+    The start point is clocked by            main|CLK [rising] on pin C
+    The end   point is clocked by            main|CLK [rising] on pin C
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+pr1.counter[5]              SB_DFF      Q        Out     0.540     0.540       -         
+counter[5]                  Net         -        -       1.599     -           5         
+pr1.counter_RNIM7991[8]     SB_LUT4     I0       In      -         2.139       -         
+pr1.counter_RNIM7991[8]     SB_LUT4     O        Out     0.449     2.588       -         
+counter_RNIM7991[8]         Net         -        -       1.371     -           1         
+pr1.counter_RNI6IFO2[0]     SB_LUT4     I0       In      -         3.959       -         
+pr1.counter_RNI6IFO2[0]     SB_LUT4     O        Out     0.449     4.408       -         
+counter_RNI6IFO2[0]         Net         -        -       1.371     -           1         
+pr1.counter_RNI0QOM4[0]     SB_LUT4     I0       In      -         5.779       -         
+pr1.counter_RNI0QOM4[0]     SB_LUT4     O        Out     0.449     6.227       -         
+counter_RNI0QOM4[0]         Net         -        -       1.507     -           6         
+pwm0.position[0]            SB_DFFE     E        In      -         7.734       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 7.734 is 1.886(24.4%) logic and 5.848(75.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 3: 
+      Requested Period:                      6.604
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.604
+
+    - Propagation time:                      7.734
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.130
+
+    Number of logic level(s):                3
+    Starting point:                          pr1.counter[5] / Q
+    Ending point:                            pwm0.position[5] / E
+    The start point is clocked by            main|CLK [rising] on pin C
+    The end   point is clocked by            main|CLK [rising] on pin C
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+pr1.counter[5]              SB_DFF      Q        Out     0.540     0.540       -         
+counter[5]                  Net         -        -       1.599     -           5         
+pr1.counter_RNIM7991[8]     SB_LUT4     I0       In      -         2.139       -         
+pr1.counter_RNIM7991[8]     SB_LUT4     O        Out     0.449     2.588       -         
+counter_RNIM7991[8]         Net         -        -       1.371     -           1         
+pr1.counter_RNI6IFO2[0]     SB_LUT4     I0       In      -         3.959       -         
+pr1.counter_RNI6IFO2[0]     SB_LUT4     O        Out     0.449     4.408       -         
+counter_RNI6IFO2[0]         Net         -        -       1.371     -           1         
+pr1.counter_RNI0QOM4[0]     SB_LUT4     I0       In      -         5.779       -         
+pr1.counter_RNI0QOM4[0]     SB_LUT4     O        Out     0.449     6.227       -         
+counter_RNI0QOM4[0]         Net         -        -       1.507     -           6         
+pwm0.position[5]            SB_DFFE     E        In      -         7.734       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 7.734 is 1.886(24.4%) logic and 5.848(75.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 4: 
+      Requested Period:                      6.604
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.604
+
+    - Propagation time:                      7.734
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.130
+
+    Number of logic level(s):                3
+    Starting point:                          pr1.counter[5] / Q
+    Ending point:                            pwm0.position[4] / E
+    The start point is clocked by            main|CLK [rising] on pin C
+    The end   point is clocked by            main|CLK [rising] on pin C
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+pr1.counter[5]              SB_DFF      Q        Out     0.540     0.540       -         
+counter[5]                  Net         -        -       1.599     -           5         
+pr1.counter_RNIM7991[8]     SB_LUT4     I0       In      -         2.139       -         
+pr1.counter_RNIM7991[8]     SB_LUT4     O        Out     0.449     2.588       -         
+counter_RNIM7991[8]         Net         -        -       1.371     -           1         
+pr1.counter_RNI6IFO2[0]     SB_LUT4     I0       In      -         3.959       -         
+pr1.counter_RNI6IFO2[0]     SB_LUT4     O        Out     0.449     4.408       -         
+counter_RNI6IFO2[0]         Net         -        -       1.371     -           1         
+pr1.counter_RNI0QOM4[0]     SB_LUT4     I0       In      -         5.779       -         
+pr1.counter_RNI0QOM4[0]     SB_LUT4     O        Out     0.449     6.227       -         
+counter_RNI0QOM4[0]         Net         -        -       1.507     -           6         
+pwm0.position[4]            SB_DFFE     E        In      -         7.734       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 7.734 is 1.886(24.4%) logic and 5.848(75.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+Path information for path number 5: 
+      Requested Period:                      6.604
+    - Setup time:                            0.000
+    + Clock delay at ending point:           0.000 (ideal)
+    = Required time:                         6.604
+
+    - Propagation time:                      7.734
+    - Clock delay at starting point:         0.000 (ideal)
+    = Slack (non-critical) :                 -1.130
+
+    Number of logic level(s):                3
+    Starting point:                          pr1.counter[5] / Q
+    Ending point:                            pwm0.position[3] / E
+    The start point is clocked by            main|CLK [rising] on pin C
+    The end   point is clocked by            main|CLK [rising] on pin C
+
+Instance / Net                          Pin      Pin               Arrival     No. of    
+Name                        Type        Name     Dir     Delay     Time        Fan Out(s)
+-----------------------------------------------------------------------------------------
+pr1.counter[5]              SB_DFF      Q        Out     0.540     0.540       -         
+counter[5]                  Net         -        -       1.599     -           5         
+pr1.counter_RNIM7991[8]     SB_LUT4     I0       In      -         2.139       -         
+pr1.counter_RNIM7991[8]     SB_LUT4     O        Out     0.449     2.588       -         
+counter_RNIM7991[8]         Net         -        -       1.371     -           1         
+pr1.counter_RNI6IFO2[0]     SB_LUT4     I0       In      -         3.959       -         
+pr1.counter_RNI6IFO2[0]     SB_LUT4     O        Out     0.449     4.408       -         
+counter_RNI6IFO2[0]         Net         -        -       1.371     -           1         
+pr1.counter_RNI0QOM4[0]     SB_LUT4     I0       In      -         5.779       -         
+pr1.counter_RNI0QOM4[0]     SB_LUT4     O        Out     0.449     6.227       -         
+counter_RNI0QOM4[0]         Net         -        -       1.507     -           6         
+pwm0.position[3]            SB_DFFE     E        In      -         7.734       -         
+=========================================================================================
+Total path delay (propagation time + setup) of 7.734 is 1.886(24.4%) logic and 5.848(75.6%) route.
+Path delay compensated for clock skew. Clock skew is added to clock-to-out value, and is subtracted from setup time value
+
+
+
+##### END OF TIMING REPORT #####]
+
+---------------------------------------
+Resource Usage Report for main 
+
+Mapping to part: ice40hx1kvq100
+Cell usage:
+GND             2 uses
+SB_CARRY        24 uses
+SB_DFF          10 uses
+SB_DFFE         14 uses
+VCC             2 uses
+SB_LUT4         42 uses
+
+I/O ports: 5
+I/O primitives: 5
+SB_GB_IO       1 use
+SB_IO          4 uses
+
+I/O Register bits:                  0
+Register bits not including I/Os:   24 (1%)
+Total load per clock:
+   main|CLK: 1
+
+Mapping Summary:
+Total  LUTs: 42 (3%)
+
+Distribution of All Consumed LUTs = LUT4 
+Distribution of All Consumed Luts 42 = 42 
+
+Mapper successful!
+
+At Mapper Exit (Real Time elapsed 0h:00m:02s; CPU Time elapsed 0h:00m:02s; Memory used current: 55MB peak: 133MB)
+
+Process took 0h:00m:02s realtime, 0h:00m:02s cputime
+# Sat May 28 00:10:33 2016
+
+###########################################################]

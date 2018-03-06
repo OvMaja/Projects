@@ -1,0 +1,6 @@
+@N|Running in 64-bit mode
+@N: CD720 :"C:\fpga-2014\SBTools\synpbase\lib\vhd\std.vhd":123:18:123:21|Setting time resolution to ns
+@N:"C:\Users\Maja Ovcarik\Desktop\pwm\pwm\main_radi1.vhd":6:7:6:10|Top entity is set to main.
+@N: CD630 :"C:\Users\Maja Ovcarik\Desktop\pwm\pwm\main_radi1.vhd":6:7:6:10|Synthesizing work.main.behavioral 
+@N: CD630 :"C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_sama_radi1.vhd":7:7:7:9|Synthesizing work.pwm.ponasanje 
+

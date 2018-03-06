@@ -1,0 +1,90 @@
+
+**** Build of configuration Debug for project Base_RTOS_lib ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../RTOS_Leandro/kernel/core.S'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/msp430-elf/include" -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/kernel" -Os -g -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"RTOS_Leandro/kernel/core.d" -MT"RTOS_Leandro/kernel/core.o" -o"RTOS_Leandro/kernel/core.o"  "../RTOS_Leandro/kernel/core.S"
+../RTOS_Leandro/kernel/core.S: Assembler messages:
+../RTOS_Leandro/kernel/core.S:32: Warning: a NOP might be needed here because of successive changes in interrupt state
+../RTOS_Leandro/kernel/core.S:33: Warning: a NOP might be needed here because of successive changes in interrupt state
+../RTOS_Leandro/kernel/core.S:34: Warning: a NOP might be needed here because of successive changes in interrupt state
+../RTOS_Leandro/kernel/core.S:35: Warning: a NOP might be needed here because of successive changes in interrupt state
+../RTOS_Leandro/kernel/core.S:36: Warning: a NOP might be needed here because of successive changes in interrupt state
+../RTOS_Leandro/kernel/core.S:37: Warning: a NOP might be needed here because of successive changes in interrupt state
+'Finished building: ../RTOS_Leandro/kernel/core.S'
+' '
+'Building file: ../RTOS_Leandro/kernel/kernel.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/msp430-elf/include" -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/kernel" -Os -g -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"RTOS_Leandro/kernel/kernel.d" -MT"RTOS_Leandro/kernel/kernel.o" -o"RTOS_Leandro/kernel/kernel.o"  "../RTOS_Leandro/kernel/kernel.c"
+In file included from C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include/kernel/kernel.h:5:0,
+                 from ../RTOS_Leandro/kernel/kernel.c:7:
+../RTOS_Leandro/kernel/kernel.c: In function '__syscall_waitEventUntil':
+../RTOS_Leandro/kernel/kernel.c:263:37: warning: comparison between pointer and integer
+  QASSERT(event != NULL || *deadline != __DEADLINE_INFINITE); // invalid combination
+                                     ^
+C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include/kernel/debug.h:25:41: note: in definition of macro 'QASSERT'
+   #define QASSERT(what)           if (!(what)) PANIC("Assertion failed in %s:%s:%u\n", __FILE__, __FUNCTION__, __LINE__)
+                                         ^~~~
+C:\Users\Name\AppData\Local\Temp\ccoivK1W.s: Assembler messages:
+C:\Users\Name\AppData\Local\Temp\ccoivK1W.s:128: Warning: a NOP might be needed here because of successive changes in interrupt state
+C:\Users\Name\AppData\Local\Temp\ccoivK1W.s:439: Warning: a NOP might be needed here because of successive changes in interrupt state
+C:\Users\Name\AppData\Local\Temp\ccoivK1W.s:1343: Warning: a NOP might be needed here because of successive changes in interrupt state
+C:\Users\Name\AppData\Local\Temp\ccoivK1W.s:1544: Warning: a NOP might be needed here because of successive changes in interrupt state
+'Finished building: ../RTOS_Leandro/kernel/kernel.c'
+' '
+'Building file: ../RTOS_Leandro/kernel/timer.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/msp430-elf/include" -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/kernel" -Os -g -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"RTOS_Leandro/kernel/timer.d" -MT"RTOS_Leandro/kernel/timer.o" -o"RTOS_Leandro/kernel/timer.o"  "../RTOS_Leandro/kernel/timer.c"
+'Finished building: ../RTOS_Leandro/kernel/timer.c'
+' '
+'Building file: ../RTOS_Public_Leandro/kernel/sysinfo.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/msp430-elf/include" -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/kernel" -Os -g -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"RTOS_Public_Leandro/kernel/sysinfo.d" -MT"RTOS_Public_Leandro/kernel/sysinfo.o" -o"RTOS_Public_Leandro/kernel/sysinfo.o"  "../RTOS_Public_Leandro/kernel/sysinfo.c"
+'Finished building: ../RTOS_Public_Leandro/kernel/sysinfo.c'
+' '
+'Building file: ../RTOS_Public_Leandro/resources/pmm/pmm.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/msp430-elf/include" -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/kernel" -Os -g -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"RTOS_Public_Leandro/resources/pmm/pmm.d" -MT"RTOS_Public_Leandro/resources/pmm/pmm.o" -o"RTOS_Public_Leandro/resources/pmm/pmm.o"  "../RTOS_Public_Leandro/resources/pmm/pmm.c"
+'Finished building: ../RTOS_Public_Leandro/resources/pmm/pmm.c'
+' '
+'Building file: ../RTOS_Public_Leandro/resources/printfx/printfx.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/msp430-elf/include" -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/kernel" -Os -g -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"RTOS_Public_Leandro/resources/printfx/printfx.d" -MT"RTOS_Public_Leandro/resources/printfx/printfx.o" -o"RTOS_Public_Leandro/resources/printfx/printfx.o"  "../RTOS_Public_Leandro/resources/printfx/printfx.c"
+../RTOS_Public_Leandro/resources/printfx/printfx.c: In function 'smartprintf':
+../RTOS_Public_Leandro/resources/printfx/printfx.c:323:26: warning: passing argument 1 of 'printfSetStreamwriter' makes pointer from integer without a cast [-Wint-conversion]
+ //   tempStreamwriter = inValue;
+                          ^~~~~~~
+../RTOS_Public_Leandro/resources/printfx/printfx.c:57:6: note: expected 'int (*)(int)' but argument is of type 'uint64_t {aka long long unsigned int}'
+  if (defaultStreamwriter != func)
+      ^~~~~~~~~~~~~~~~~~~~~
+In file included from C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include/lib/printfx.h:7:0,
+                 from ../RTOS_Public_Leandro/resources/printfx/printfx.c:4:
+../RTOS_Public_Leandro/resources/printfx/printfx.c:292:46: warning: 'uint16_t {aka short unsigned int}' is promoted to 'unsigned int' when passed through '...'
+   else if (srcLen == 4) inValue = va_arg(ap, uint32_t);
+                                              ^
+../RTOS_Public_Leandro/resources/printfx/printfx.c:292:46: note: (so you should pass 'unsigned int' not 'uint16_t {aka short unsigned int}' to 'va_arg')
+../RTOS_Public_Leandro/resources/printfx/printfx.c:292:46: note: if this code is reached, the program will abort
+C:\Users\Name\AppData\Local\Temp\ccTtm06H.s: Assembler messages:
+C:\Users\Name\AppData\Local\Temp\ccTtm06H.s:358: Warning: a NOP might be needed here because of successive changes in interrupt state
+C:\Users\Name\AppData\Local\Temp\ccTtm06H.s:733: Warning: a NOP might be needed here because of successive changes in interrupt state
+'Finished building: ../RTOS_Public_Leandro/resources/printfx/printfx.c'
+' '
+'Building file: ../RTOS_Public_Leandro/resources/sysclk/sysclk.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/msp430-elf/include" -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/kernel" -Os -g -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"RTOS_Public_Leandro/resources/sysclk/sysclk.d" -MT"RTOS_Public_Leandro/resources/sysclk/sysclk.o" -o"RTOS_Public_Leandro/resources/sysclk/sysclk.o"  "../RTOS_Public_Leandro/resources/sysclk/sysclk.c"
+'Finished building: ../RTOS_Public_Leandro/resources/sysclk/sysclk.c'
+' '
+'Building file: ../RTOS_Public_Leandro/resources/uart/uart_tx.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/msp430-elf/include" -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/include" -I"C:/Users/Name/Desktop/20171115/Workspace/Base_RTOS_lib/RTOS_Public_Leandro/kernel" -Os -g -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"RTOS_Public_Leandro/resources/uart/uart_tx.d" -MT"RTOS_Public_Leandro/resources/uart/uart_tx.o" -o"RTOS_Public_Leandro/resources/uart/uart_tx.o"  "../RTOS_Public_Leandro/resources/uart/uart_tx.c"
+'Finished building: ../RTOS_Public_Leandro/resources/uart/uart_tx.c'
+' '
+'Building target: libBase_RTOS_lib.a'
+'Invoking: GNU Librarian'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-ar.exe" -r "libBase_RTOS_lib.a" "./RTOS_Leandro/kernel/core.o" "./RTOS_Leandro/kernel/kernel.o" "./RTOS_Leandro/kernel/timer.o" "./RTOS_Public_Leandro/kernel/sysinfo.o" "./RTOS_Public_Leandro/resources/pmm/pmm.o" "./RTOS_Public_Leandro/resources/printfx/printfx.o" "./RTOS_Public_Leandro/resources/sysclk/sysclk.o" "./RTOS_Public_Leandro/resources/uart/uart_tx.o"  
+C:/ti/ccsv6/tools/compiler/msp430-gcc-6.4.0.32_win32/bin/msp430-elf-ar.exe: creating libBase_RTOS_lib.a
+'Finished building target: libBase_RTOS_lib.a'
+' '
+
+**** Build Finished ****

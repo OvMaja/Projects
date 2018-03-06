@@ -1,0 +1,10 @@
+C:\fpga-2014\SBTools\synpbase\bin64\c_vhdl.exe  -osyn  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_comp.srs"  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver  -encrypt  -pro  -dmgen  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\dm"  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\main_radi1.vhd" -lib work "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_sama_radi1.vhd"  -log  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synlog\pwm_compiler.srr" 
+rc:0 success:1
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_comp.srs|o|1467910450|2228
+"C:\Users\Maja|i|0|0
+Ovcarik\Desktop\pwm\pwm\main_radi1.vhd"|i|0|0
+"C:\Users\Maja|i|0|0
+Ovcarik\Desktop\pwm\pwm\pwm_sama_radi1.vhd"|i|0|0
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synlog\pwm_compiler.srr|o|1467910450|1279
+C:\fpga-2014\SBTools\synpbase\bin\c_vhdl.exe|i|1458140443|2047488
+C:\fpga-2014\SBTools\synpbase\bin64\c_vhdl.exe|i|1458140467|5534720

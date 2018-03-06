@@ -1,0 +1,9 @@
+C:\fpga-2014\SBTools\synpbase\bin64\c_vhdl.exe  -osyn  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_comp.srs  -prodtype  synplify_pro  -primux -fixsmult -infer_seqShift -ice -sdff_counter -nram -divnmod -nostructver  -encrypt  -pro  -dmgen  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\dm  -lite -ui -fid2 -ram -sharing on -ll 2000 -autosm  -ignore_undefined_lib  -lib work C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd -lib work C:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd -lib work C:\fpga\pwm\pwm\pwm_samradi.vhd  -log  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\pwmsamradi_compiler.srr 
+rc:0 success:1
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_comp.srs|o|1464387029|3244
+C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd|i|1464386072|812
+C:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd|i|1464387021|670
+C:\fpga\pwm\pwm\pwm_samradi.vhd|i|1464386858|821
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\pwmsamradi_compiler.srr|o|1464387029|1541
+C:\fpga-2014\SBTools\synpbase\bin\c_vhdl.exe|i|1458140443|2047488
+C:\fpga-2014\SBTools\synpbase\bin64\c_vhdl.exe|i|1458140467|5534720

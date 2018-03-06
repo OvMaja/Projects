@@ -1,0 +1,58 @@
+
+**** Build of configuration Debug for project RTBS_BaseProject ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+'Building file: ../src/can.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-5.3.0.224_win32/msp430-gcc-5.3.0.224_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-5.3.0.224_win32/msp430-gcc-5.3.0.224_win32/msp430-elf/include" -I"C:/RTBS_Students/Workspace/RTBS_BaseProject/libs/RTOS/public/include" -O0 -g -gdwarf-3 -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"src/can.d" -MT"src/can.o" -o"src/can.o"  "../src/can.c"
+../src/can.c: In function 'CAN_createCRC':
+../src/can.c:126:17: warning: passing argument 1 of 'CAN_shiftReg' from incompatible pointer type [-Wincompatible-pointer-types]
+   CAN_shiftReg (&status, polynom, msbMask, nextBit);
+                 ^
+../src/can.c:97:6: note: expected 'uint32_t * {aka long unsigned int *}' but argument is of type 'uint16_t * {aka short unsigned int *}'
+ void CAN_shiftReg(uint32_t *status, uint32_t polynom, uint32_t msbMask, uint8_t nextBit)
+      ^
+../src/can.c: In function 'CAN_decodeFrame':
+../src/can.c:713:12: warning: format '%d' expects argument of type 'int', but argument 2 has type 'uint64_t {aka long long unsigned int}' [-Wformat=]
+     printf("Data %d\n", Data);
+            ^
+../src/can.c:687:13: warning: variable 'ExtendedReserved' set but not used [-Wunused-but-set-variable]
+     uint8_t ExtendedReserved;
+             ^
+../src/can.c:686:13: warning: variable 'ExtendedSRR' set but not used [-Wunused-but-set-variable]
+     uint8_t ExtendedSRR;
+             ^
+../src/can.c:684:13: warning: variable 'StandardReserved' set but not used [-Wunused-but-set-variable]
+     uint8_t StandardReserved;
+             ^
+../src/can.c:677:13: warning: variable 'ExtendedRTR' set but not used [-Wunused-but-set-variable]
+     uint8_t ExtendedRTR;
+             ^
+../src/can.c:676:13: warning: variable 'StandardRTR' set but not used [-Wunused-but-set-variable]
+     uint8_t StandardRTR;
+             ^
+../src/can.c: In function 'CAN_trySendFrame':
+../src/can.c:419:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+'Finished building: ../src/can.c'
+' '
+'Building file: ../src/main.c'
+'Invoking: GNU Compiler'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-5.3.0.224_win32/msp430-gcc-5.3.0.224_win32/bin/msp430-elf-gcc.exe" -c -mmcu=msp430f5529 -I"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -I"C:/ti/ccsv6/tools/compiler/msp430-gcc-5.3.0.224_win32/msp430-gcc-5.3.0.224_win32/msp430-elf/include" -I"C:/RTBS_Students/Workspace/RTBS_BaseProject/libs/RTOS/public/include" -O0 -g -gdwarf-3 -gstrict-dwarf -Wall -msmall -mhwmult=f5series -mcode-region=none -mdata-region=none -MMD -MP -MF"src/main.d" -MT"src/main.o" -o"src/main.o"  "../src/main.c"
+'Finished building: ../src/main.c'
+' '
+'Building target: RTBS_BaseProject.out'
+'Invoking: GNU Linker'
+"C:/ti/ccsv6/tools/compiler/msp430-gcc-5.3.0.224_win32/msp430-gcc-5.3.0.224_win32/bin/msp430-elf-gcc.exe" -mmcu=msp430f5529 -O0 -g -gdwarf-3 -gstrict-dwarf -Wall -Wl,-Map,"RTBS_BaseProject.map" -L"C:/ti/ccsv6/ccs_base/msp430/include_gcc" -L"C:/RTBS_Students/Workspace/RTBS_BaseProject/libs/RTOS" -L"C:/RTBS_Students/Workspace/RTBS_BaseProject/libs" -o"RTBS_BaseProject.out" "./src/can.o" "./src/main.o" -T"../msp430f5529.ld"  -Wl,--start-group -lgcc -lBase_RTOS_lib -lRTBS_CAN_Tests -Wl,--end-group   ../libs/RTOS/libBase_RTOS_lib.a  ../libs/libRTBS_CAN_Tests.a 
+'Finished building target: RTBS_BaseProject.out'
+' '
+
+**** Build Finished ****
+
+**** Build of configuration Debug for project RTBS_BaseProject ****
+
+"C:\\ti\\ccsv6\\utils\\bin\\gmake" -k all 
+gmake: Nothing to be done for 'all'.
+
+**** Build Finished ****

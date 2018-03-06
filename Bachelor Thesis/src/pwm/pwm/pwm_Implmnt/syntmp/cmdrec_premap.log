@@ -1,0 +1,13 @@
+C:\fpga-2014\SBTools\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt"   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synlog\report\pwm_premap.xml"  -oedif  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.edf"  -conchk_prepass  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm_cck_prepass.rpt"   -autoconstraint  -freq 1.000   "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_mult.srs"  -flow prepass  -gcc_prepass  -osrd  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_prem.srd"  -qsap  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.sap"  -devicelib  C:\fpga-2014\SBTools\synpbase\lib\generic\sb_ice40.v  -ologparam  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\syntmp\pwm.plg"  -osyn  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_prem.srd"  -prjdir  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\"  -prjname  pwm_syn  -log  "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synlog\pwm_premap.srr" 
+rc:1 success:1
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.edf|o|0|0
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm_cck_prepass.rpt|o|0|0
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_mult.srs|i|1467910452|1966
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_prem.srd|o|1467910454|2914
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.sap|o|1467910455|568
+C:\fpga-2014\SBTools\synpbase\lib\generic\sb_ice40.v|i|1458140482|222921
+"C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\syntmp\pwm.plg"|o|0|0
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_prem.srd|o|1467910454|2914
+C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synlog\pwm_premap.srr|o|1467910455|2803
+C:\fpga-2014\SBTools\synpbase\bin\m_generic.exe|i|1458140455|22806528
+C:\fpga-2014\SBTools\synpbase\bin64\m_generic.exe|i|1458140476|34561024

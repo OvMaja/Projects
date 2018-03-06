@@ -1,0 +1,2 @@
+@W: MT558 |Unable to locate source for clock clk_mod|CLK_out_derived_clock. Clock will not be forward annotated
+@W: MT420 |Found inferred clock main|CLK with period 6.60ns. Please declare a user-defined clock on object "p:CLK"

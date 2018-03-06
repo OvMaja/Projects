@@ -1,0 +1,6 @@
+@N: CD630 :"C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd":6:7:6:10|Synthesizing work.main.behavioral 
+@N: CD630 :"C:\fpga\pwm\pwm\pwm_samradi.vhd":7:7:7:9|Synthesizing work.pwm.ponasanje 
+Post processing for work.pwm.ponasanje
+@N: CD630 :"C:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd":8:7:8:13|Synthesizing work.clk_mod.ponasanje 
+Post processing for work.clk_mod.ponasanje
+Post processing for work.main.behavioral

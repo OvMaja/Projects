@@ -1,0 +1,6 @@
+[VIC]
+pr1.CLK_out_RNOZ0Z_1_cascade_=ltout:in0
+pr1.G_2_xx_mm_a0_2_cascade_=ltout:in1
+pr1.counter_RNI6IFO2Z0Z_0_cascade_=ltout:in0
+pr1.counter_RNIM7991Z0Z_8_cascade_=ltout:in0
+pr1.un8_counter_1_cascade_=ltout:in2

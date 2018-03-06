@@ -1,0 +1,49 @@
+timestamp=1464368748556
+
+[clk_mod]
+A/ponasanje=21|C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd|18|1*10783
+BinI32/ponasanje=3*3323
+I=0*3221
+I/ponasanje=0*6872
+M=11|0|vb4|1464368476362|C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd|0*2737*0xe631108aec98d74698dd35b04ff35f49dc46606a|0*3121*0x5eebbfaf24833dd780412b1f91e05209
+M/ponasanje=21|0|vb4|1464368748497|C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd|0*3517*0x6a1ef32ecaeb0894510347f4dcafd22f51705e39|0*3965*0x342d199c7b40d21b0ecf2867dd8bfa66
+R=C:/fpga/pwm/pwm/clockmodif_za_pwmsam1.vhd|8
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/ponasanje=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[main]
+A/behavioral=A/Behavioral 21|C:/fpga/pwm/pwm/main_za_pwm_samradi.vhd|15|1*8180
+BinI32/behavioral=3*2834
+I=0*2284
+I/behavioral=I/Behavioral 0*6525
+M=11|0|vb4|1464368476350|C:/fpga/pwm/pwm/main_za_pwm_samradi.vhd|0*1840*0xa52550fef822d7f526ed78520381cf5a0e5ec325|0*2189*0x5eebbfaf24833dd780412b1f91e05209
+M/behavioral=M/Behavioral 21|0|vb4|1464368748408|C:/fpga/pwm/pwm/main_za_pwm_samradi.vhd|0*5822*0x6137ca693dceb575b788cbe3c9eca3bf59cce851|0*6416*0x342d199c7b40d21b0ecf2867dd8bfa66
+R=C:/fpga/pwm/pwm/main_za_pwm_samradi.vhd|6
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/behavioral=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[pwm]
+A/ponasanje=21|C:/fpga/pwm/pwm/pwm_samradi.vhd|14|1*6696
+BinI32/ponasanje=3*2290
+I=0*512
+I/ponasanje=0*5520
+M=11|0|vb4|1464368475954|C:/fpga/pwm/pwm/pwm_samradi.vhd|0*131*0x4a462b9ae86d104978857a473fe34c37a9c040a8|0*426*0x5eebbfaf24833dd780412b1f91e05209
+M/ponasanje=21|0|vb4|1464368748351|C:/fpga/pwm/pwm/pwm_samradi.vhd|0*4384*0xf1fa2bc08239223a6aac33d594194c27ca94b002|0*4813*0x342d199c7b40d21b0ecf2867dd8bfa66
+R=C:/fpga/pwm/pwm/pwm_samradi.vhd|7
+Version=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+Version/ponasanje=9.3.2744.4995  (Windows)|00000003789cd3f5370600015b00b0
+
+[~A]
+ModifyID=39
+Version=73
+
+[~MFT]
+0=32|0pwmsam.mgf|6872|1744
+1=10|1pwmsam.mgf|10783|6696
+3=10|3pwmsam.mgf|3323|2290
+
+[~U]
+clk_mod=11|0*2516|
+main=11|0*1634|
+pwm=PWM 11|0*0|
+

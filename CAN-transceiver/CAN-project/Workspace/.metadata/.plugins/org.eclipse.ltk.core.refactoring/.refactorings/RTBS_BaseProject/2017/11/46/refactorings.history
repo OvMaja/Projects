@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;RTBS_BaseProject/src/CAN_Tests.h&apos; to &apos;can_tests.h&apos;" description="Rename resource &apos;CAN_Tests.h&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/CAN_Tests.h" name="can_tests.h" stamp="1510908740760" updateReferences="true"/>
+</session>

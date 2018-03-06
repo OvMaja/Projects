@@ -1,0 +1,14 @@
+[Version]
+Version=9.3
+[Designs]
+pwmsam=pwmsam.adf
+[Settings]
+Active=pwmsam
+[Expand]
+pwmsam=1
+[Browser]
+sort=order
+mode=none
+[Order]
+order=1
+macro=

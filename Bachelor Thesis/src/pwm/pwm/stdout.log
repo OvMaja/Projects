@@ -1,0 +1,63 @@
+Running in Lattice mode
+
+
+Starting:    C:\fpga-2014\SBTools\synpbase\win64\mbin\synbatch.exe
+Install:     C:\fpga-2014\SBTools\synpbase
+Date:        Thu Jul 07 18:54:10 2016
+Version:     I-2014.03L-SP1 
+
+Arguments:   -product synplify_pro  -batch pwm_syn.prj
+ProductType: synplify_pro
+
+
+
+
+
+log file: "C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.srr"
+
+Running pwm_syn|pwm_Implmnt
+
+Running: Compile on pwm_syn|pwm_Implmnt
+
+Running: Compile Process on pwm_syn|pwm_Implmnt
+
+Running: Compile Input on pwm_syn|pwm_Implmnt
+Copied C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_comp.srs to C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.srs
+
+compiler Completed
+Return Code: 0
+Run Time:0h:00m:01s
+
+Running: Multi-srs Generator on pwm_syn|pwm_Implmnt
+Copied C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_comp.srs to C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_s.srs
+
+multi_srs_gen Completed
+Return Code: 0
+Run Time:0h:00m:01s
+Copied C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_mult.srs to C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.srs
+Complete: Compile Process on pwm_syn|pwm_Implmnt
+
+Running: Pre-mapping on pwm_syn|pwm_Implmnt
+Copied C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.sap to C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_s.sap
+Copied C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.fse to C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_s.fse
+
+premap Completed with warnings
+Return Code: 1
+Run Time:0h:00m:03s
+Complete: Compile on pwm_syn|pwm_Implmnt
+
+Running: Map on pwm_syn|pwm_Implmnt
+
+Running: Map & Optimize on pwm_syn|pwm_Implmnt
+Copied C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\synwork\pwm_m.srm to C:\Users\Maja Ovcarik\Desktop\pwm\pwm\pwm_Implmnt\pwm.srm
+
+fpga_mapper Completed with warnings
+Return Code: 1
+Run Time:0h:00m:03s
+Complete: Map on pwm_syn|pwm_Implmnt
+Complete: Logic Synthesis on pwm_syn|pwm_Implmnt
+
+exit status=0
+
+exit status=0
+

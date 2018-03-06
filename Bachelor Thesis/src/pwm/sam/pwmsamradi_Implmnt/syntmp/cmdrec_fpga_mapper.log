@@ -1,0 +1,14 @@
+C:\fpga-2014\SBTools\synpbase\bin64\m_generic.exe  -prodtype  synplify_pro   -encrypt  -pro  -rundir  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt   -part iCE40HX1K  -package VQ100    -maxfan 10000 -RWCheckOnRam 0 -pipe -fixgatedclocks 1 -fixgeneratedclocks 1 -summaryfile C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\report\pwmsamradi_fpga_mapper.xml  -flow mapping  -multisrs  -oedif  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.edf   -autoconstraint  -freq 1.000   C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_prem.srd  -sap  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap  -otap  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.tap  -omap  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.map  -devicelib  C:\fpga-2014\SBTools\synpbase\lib\generic\sb_ice40.v  -sap  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap  -ologparam  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\syntmp\pwmsamradi.plg  -osyn  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.srm  -prjdir  C:\fpga\pwm\pwmsamradi\  -prjname  pwmsamradi_syn  -log  C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\pwmsamradi_fpga_mapper.srr 
+rc:1 success:1
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.edf|o|1464387032|53368
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synwork\pwmsamradi_prem.srd|i|1464387030|5616
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap|o|1464387031|1729
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.tap|o|0|0
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.map|o|1464387033|28
+C:\fpga-2014\SBTools\synpbase\lib\generic\sb_ice40.v|i|1458140482|222921
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.sap|o|1464387031|1729
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\syntmp\pwmsamradi.plg|o|1464387033|1441
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\pwmsamradi.srm|o|1464387032|13775
+C:\fpga\pwm\pwmsamradi\pwmsamradi_Implmnt\synlog\pwmsamradi_fpga_mapper.srr|o|1464387033|24697
+C:\fpga-2014\SBTools\synpbase\bin\m_generic.exe|i|1458140455|22806528
+C:\fpga-2014\SBTools\synpbase\bin64\m_generic.exe|i|1458140476|34561024

@@ -1,0 +1,1 @@
+#1000 define_clock {p:CLK_3_33MHZ} -name {main|CLK_3_33MHZ} -ref_rise {0.0} -ref_fall {2.558400} -uncertainty {0.000000} -period {5.116800} -clockgroup {Autoconstr_clkgroup_0} -rise {0.0} -fall {2.558400}

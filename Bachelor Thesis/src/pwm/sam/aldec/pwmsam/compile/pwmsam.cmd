@@ -1,0 +1,1 @@
+-w -s "C:\fpga\pwm\pwmsamradi\aldec\pwmsam\library.cfg"  -j "C:\fpga\pwm\pwmsamradi\aldec\pwmsam\projlib.cfg"  -d "C:\fpga\pwm\pwmsamradi\aldec\pwmsam\compile"   -work pwmsam  -O3 -e 100 -2002 "C:\fpga\pwm\pwm\pwm_samradi.vhd" "C:\fpga\pwm\pwm\main_za_pwm_samradi.vhd" "C:\fpga\pwm\pwm\clockmodif_za_pwmsam1.vhd"
